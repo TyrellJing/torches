@@ -15,3 +15,7 @@
 [GC-三色标记清除](./golang/45574a7f4ed0c1ef3c239b250ba69564.md)
 
 [G-M-P调度模型](./golang/135e64075c7a0c96f2a15bca12fc7c70.md)
+
+## Gin
+
+[路由实现-Trie前缀树](./gin/ccb5ea25922bbdbabb4458364296346c.md)
