@@ -2,6 +2,8 @@
 
 ## Golang
 
+[bufio读写机制剖析](./golang/1edef46cb50498cbb8f1e6d0816554dd.md)
+
 [net/http包路由机制详解](./golang/557b6f167c0235c740405a209b834404.md)
 
 [unsafe包详解](./golang/cd10787177a22a08560b4b26fba49a7f.md)
