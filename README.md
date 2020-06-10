@@ -26,6 +26,8 @@
 
 [路由实现-Trie前缀树](./gin/ccb5ea25922bbdbabb4458364296346c.md)
 
+[整体架构-各组件功能实现](./gin/03a1cf5434c15154c97868b9d07a4645.md)
+
 ## MySQL
 
 [InnoDB的事务实现机制](./mysql/28b067364356d358bfff17f816773949.md)
