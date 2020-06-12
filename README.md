@@ -12,6 +12,8 @@
 
 [map的底层实现](./golang/e6480ecfabffb4028372fc5d2909cf71.md)
 
+[map的扩容机制](./golang/73e254a888a9fbebaaed6875fc1c1a3f.md)
+
 [sync.Pool临时对象池](./golang/2c2496a74b1243d762153dc2fdb8aa9f.md)
 
 [sync.Map源码分析](./golang/4cc5086abc237cd75fa591619deae465.md)
