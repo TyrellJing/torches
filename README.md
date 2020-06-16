@@ -2,9 +2,11 @@
 
 ## Golang
 
-[Uber编码规范-指导原则](./golang/efc4e3b51d06b3dde5fee816e6505914.md)
+[Uber-Golang编码规范-指导原则](./golang/efc4e3b51d06b3dde5fee816e6505914.md)
 
-[Uber编码规范-性能与规范](./golang/545a7f4bb1f9fb1db36540a82f547019.md)
+[Uber-Golang编码规范-性能与规范](./golang/545a7f4bb1f9fb1db36540a82f547019.md)
+
+[Uber-Golang编码规范-编程模式](./golang/82a5a09e8d0f5faef9be628fb82d66e0.md)
 
 [bufio读写机制剖析](./golang/1edef46cb50498cbb8f1e6d0816554dd.md)
 
