@@ -36,6 +36,8 @@
 
 [G-M-P调度模型](./golang/135e64075c7a0c96f2a15bca12fc7c70.md)
 
+[Go中连接池的实现分析](./golang/dc2304b5445bd93705e8a613373f86c9.md)
+
 ## Gin
 
 [路由实现-Trie前缀树](./gin/ccb5ea25922bbdbabb4458364296346c.md)
@@ -55,8 +57,6 @@
 ## Nginx
 
 ## 算法与数据结构
-
-[二叉排序树，AVL树和红黑树](./datastruct/4075be21d08afb2e2718d2d7947d7800.md)
 
 ## 网络协议
 
