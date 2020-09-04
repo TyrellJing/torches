@@ -42,6 +42,8 @@
 
 [日志库logrus](./library/c6aea72f78bce2ac98917c53427f77c4.md)
 
+[命令行库cli](./library/7291c7df1d759949affdb99bde16499d.md)
+
 ## Gin
 
 [路由实现-Trie前缀树](./gin/ccb5ea25922bbdbabb4458364296346c.md)
