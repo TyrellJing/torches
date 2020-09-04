@@ -1,6 +1,6 @@
 # 目录
 
-## Golang
+## 标准库
 
 [Uber-Golang编码规范-指导原则](./golang/efc4e3b51d06b3dde5fee816e6505914.md)
 
@@ -37,6 +37,10 @@
 [G-M-P调度模型](./golang/135e64075c7a0c96f2a15bca12fc7c70.md)
 
 [Go中连接池的实现分析](./golang/dc2304b5445bd93705e8a613373f86c9.md)
+
+## 第三方包
+
+[日志库logrus](./library/c6aea72f78bce2ac98917c53427f77c4.md)
 
 ## Gin
 
