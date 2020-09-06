@@ -44,6 +44,8 @@
 
 [命令行库cli](./library/7291c7df1d759949affdb99bde16499d.md)
 
+[依赖注入wire](./library/1bfdc00f58f271a2f8a4c270d79a35c3.md)
+
 ## Gin
 
 [路由实现-Trie前缀树](./gin/ccb5ea25922bbdbabb4458364296346c.md)
