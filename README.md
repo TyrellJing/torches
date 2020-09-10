@@ -48,6 +48,8 @@
 
 [依赖注入wire](./library/1bfdc00f58f271a2f8a4c270d79a35c3.md)
 
+[访问控制casbin](./library/d10de1c285078a0716d584293f302bd1.md)
+
 ## Gin
 
 [路由实现-Trie前缀树](./gin/ccb5ea25922bbdbabb4458364296346c.md)
