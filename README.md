@@ -50,6 +50,8 @@
 
 [访问控制casbin](./library/d10de1c285078a0716d584293f302bd1.md)
 
+[服务限流算法的几种实现](./library/f8bdcb5371d0afa35b36c71bb2b1648b.md)
+
 ## Gin
 
 [路由实现-Trie前缀树](./gin/ccb5ea25922bbdbabb4458364296346c.md)
