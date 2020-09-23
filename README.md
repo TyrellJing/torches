@@ -66,7 +66,11 @@
 
 [Protobuf生成Go代码指南](./grpc/47dee3eff68bc42187b2d6e958f3d9be.md)
 
+[用Golang构建grpc服务](./grpc/4aafe5445591ca04ea1a01f5ccb9c07d.md)
+
 ## Go-kit
+
+[go-kit的整体结构](./go-kit/fad0ab705c7d60ba7cd645fbb88727d0.md)
 
 ## Go-micro
 
