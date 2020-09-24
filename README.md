@@ -68,9 +68,13 @@
 
 [用Golang构建grpc服务](./grpc/4aafe5445591ca04ea1a01f5ccb9c07d.md)
 
-## Go-kit
+## Go-Kit
 
 [go-kit的整体结构](./go-kit/fad0ab705c7d60ba7cd645fbb88727d0.md)
+
+[endpoint源码分析](./go-kit/2ae340fadbe32d13d2498c410802d663.md)
+
+[transport层之http-server](./go-kit/52345052a6f9a4ea12b236e2c5c990dd.md)
 
 ## Go-micro
 
