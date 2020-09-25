@@ -76,6 +76,8 @@
 
 [transport层之http-server](./go-kit/52345052a6f9a4ea12b236e2c5c990dd.md)
 
+[transport层之http-client](./go-kit/b93acf62f8b62d487769c113527f5305.md)
+
 ## Go-micro
 
 ## Etcd
