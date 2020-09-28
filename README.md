@@ -80,6 +80,8 @@
 
 [transport层之jsonrpc](./go-kit/b6cb9fd341765363f306fef479e7f2d9.md)
 
+[服务发现之通用功能实现](./go-kit/31362dddb72a6efb0978280b3f79cc64.md)
+
 ## Go-micro
 
 ## Etcd
@@ -107,3 +109,5 @@
 [oAuth2.0授权机制](./net/3c3524c954bbaa25bedb012d38258984.md)
 
 [浅谈权限管理模型](./net/e5a3a4a74dc9ffcfa99a04c00ff68c92.md)
+
+[网络中的指数躲避抖动算法](./net/e63666defbed996bf529cc25f77ba048.md)
