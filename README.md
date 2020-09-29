@@ -80,9 +80,9 @@
 
 [transport层之jsonrpc](./go-kit/b6cb9fd341765363f306fef479e7f2d9.md)
 
-[服务注册与发现的通用功能实现](./go-kit/31362dddb72a6efb0978280b3f79cc64.md)
+[服务注册中心的通用功能实现](./go-kit/31362dddb72a6efb0978280b3f79cc64.md)
 
-[服务注册与发现的consul实现](./go-kit/4b29320d63e8b97a86bad51a1a9e5097.md)
+[服务注册中心的consul实现](./go-kit/4b29320d63e8b97a86bad51a1a9e5097.md)
 
 ## Go-micro
 
