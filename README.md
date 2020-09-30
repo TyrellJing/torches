@@ -8,6 +8,8 @@
 
 [Uber-Golang编码规范-编程模式](./golang/82a5a09e8d0f5faef9be628fb82d66e0.md)
 
+[构建工具make和makefile编写](./golang/cafdf12ee69bec6d9195f0c9307ad283.md)
+
 [Go-Modules详解](./golang/7963c3241f660333e66770b999610358.md)
 
 [bufio读写机制剖析](./golang/1edef46cb50498cbb8f1e6d0816554dd.md)
