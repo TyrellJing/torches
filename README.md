@@ -68,7 +68,7 @@
 
 [Protobuf生成Go代码指南](./grpc/47dee3eff68bc42187b2d6e958f3d9be.md)
 
-[用Golang构建grpc服务](./grpc/4aafe5445591ca04ea1a01f5ccb9c07d.md)
+[grpc的特性和背后的设计原则](./grpc/4aafe5445591ca04ea1a01f5ccb9c07d.md)
 
 ## Go-Kit
 
@@ -81,6 +81,8 @@
 [transport层之http-client](./go-kit/b93acf62f8b62d487769c113527f5305.md)
 
 [transport层之jsonrpc](./go-kit/b6cb9fd341765363f306fef479e7f2d9.md)
+
+[transport层之grpc]
 
 [服务注册中心的通用功能实现](./go-kit/31362dddb72a6efb0978280b3f79cc64.md)
 
