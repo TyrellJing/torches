@@ -70,6 +70,14 @@
 
 [grpc的特性和背后的设计原则](./grpc/4aafe5445591ca04ea1a01f5ccb9c07d.md)
 
+[grpc接口描述语言ProtoBuffer](./grpc/ca9310a72f2853a38fdba30ee817d1e8.md)
+
+[grpc之Golang入门HelloWorld](./grpc/a7b875a7f97ab4acd41ea380128e4d20.md)
+
+[grpc之流式调用原理http2协议分析](./grpc/592472ad5b65ce619f7949258ca82abf.md)
+
+[grpc认证的多种方式实践](./grpc/b9b2cef4ae0967d353c12a915dc1735b.md)
+
 ## Go-Kit
 
 [go-kit的整体结构](./go-kit/fad0ab705c7d60ba7cd645fbb88727d0.md)
