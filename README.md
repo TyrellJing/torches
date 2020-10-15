@@ -78,6 +78,10 @@
 
 [grpc认证的多种方式实践](./grpc/b9b2cef4ae0967d353c12a915dc1735b.md)
 
+[grpc拦截器的那些事](./grpc/aeeb6a1c25eb38ec3746dac068bd69bc.md)
+
+[grpc服务注册与服务发现](./grpc/f7dbd0b69f26f000602b6e0a94d7b986.md)
+
 ## Go-Kit
 
 [go-kit的整体结构](./go-kit/fad0ab705c7d60ba7cd645fbb88727d0.md)
