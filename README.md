@@ -82,9 +82,15 @@
 
 [grpc服务注册与服务发现](./grpc/f7dbd0b69f26f000602b6e0a94d7b986.md)
 
+[grpc-server启动分析](./grpc/b456e6f15c800b64001c759ef5145a8c.md)
+
+[grpc的一次请求流程](./grpc/ae9e6625d4cc55338707a5c8b7dcc032.md)
+
 ## Go-Kit
 
 [go-kit的整体结构](./go-kit/fad0ab705c7d60ba7cd645fbb88727d0.md)
+
+[basic授权认证中间件](./go-kit/5ea369e8a80fb8b332f86b89cfb0c5cc.md)
 
 [endpoint源码分析](./go-kit/2ae340fadbe32d13d2498c410802d663.md)
 
@@ -94,7 +100,7 @@
 
 [transport层之jsonrpc](./go-kit/b6cb9fd341765363f306fef479e7f2d9.md)
 
-[transport层之grpc]
+[transport层之grpc](./go-kit/7d86339e64c749c3482e604980bc8e8a.md)
 
 [服务注册中心的通用功能实现](./go-kit/31362dddb72a6efb0978280b3f79cc64.md)
 
