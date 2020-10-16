@@ -86,6 +86,8 @@
 
 [grpc的一次请求流程](./grpc/ae9e6625d4cc55338707a5c8b7dcc032.md)
 
+[grpc跨语言通信实例](./grpc/3e226b258dd5734ed0c1e91777dd3305.md)
+
 ## Go-Kit
 
 [go-kit的整体结构](./go-kit/fad0ab705c7d60ba7cd645fbb88727d0.md)
