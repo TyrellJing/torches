@@ -126,6 +126,8 @@
 
 [InnoDB的事务实现机制](./mysql/28b067364356d358bfff17f816773949.md)
 
+[必须了解的MySQL三大日志](./mysql/40e4aa65a0bfa47d090808382ffddc78.md)
+
 ## Protocol && Policy
 
 [TCP三次握手与四次挥手](./net/49002627a472fc428fa100f2e5dbcc88.md)

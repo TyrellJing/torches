@@ -24,7 +24,7 @@
 
 - Redlock-cs (C#/.NET 实现)
 
-- RedLock.net (C#/.NET 实现)
+- RedLock-net (C#/.NET 实现)
 
 - ScarletLock (C# .NET 实现)
 
