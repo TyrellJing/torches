@@ -38,6 +38,8 @@
 
 [Go中连接池的实现分析](./std/dc2304b5445bd93705e8a613373f86c9.md)
 
+[Go中的并发限制与超时控制](./std/17f2b3867ba1cdfcc9f2116398ab36ad.md)
+
 ## Uber-Go Style Guide
 
 [Uber-Golang编码规范-指导原则](./guide/efc4e3b51d06b3dde5fee816e6505914.md)
