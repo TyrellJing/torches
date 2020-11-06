@@ -40,6 +40,8 @@
 
 [Go中的并发限制与超时控制](./std/17f2b3867ba1cdfcc9f2116398ab36ad.md)
 
+[实现一个Go并发处理队列](./std/64fef4899b9ea0c00617ded60f7f459f.md)
+
 ## Uber-Go Style Guide
 
 [Uber-Golang编码规范-指导原则](./guide/efc4e3b51d06b3dde5fee816e6505914.md)
