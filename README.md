@@ -126,6 +126,8 @@
 
 [RedLock算法-使用redis实现分布式锁服务](./redis/41ebba3bc046c23a2a1b19a7bff2d3bb.md)
 
+[缓存雪崩，缓存穿透和缓存击穿方案分析](./redis/5322c71dcf4f89e769c39bb328e3fe17.md)
+
 [理解snowflake算法的实现原理](./redis/4e9324ab5b9e8589c72dd5f602d35910.md)
 
 ## Nginx
