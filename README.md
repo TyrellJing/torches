@@ -122,6 +122,8 @@
 
 ## Redis
 
+[跳表的原理及实现](./redis/250b12cefb8b44a26555f5442a224d50.md)
+
 [Redis的两种持久化机制](./redis/225b07d051d77eec8944200ea688fd32.md)
 
 [基于Redis的分布式锁实现](./redis/06d6b52568476822f5a2e9f0be2e1032.md)
@@ -129,6 +131,8 @@
 [RedLock算法-使用redis实现分布式锁服务](./redis/41ebba3bc046c23a2a1b19a7bff2d3bb.md)
 
 [缓存淘汰策略之LRU算法分析](./redis/20c57fc31aa7606867c3f2508cbf008f.md)
+
+[缓存淘汰策略之LFU算法分析](./redis/b24c750436a508c67e8287da8c887c97.md)
 
 [缓存雪崩，缓存穿透和缓存击穿方案分析](./redis/5322c71dcf4f89e769c39bb328e3fe17.md)
 
@@ -144,7 +148,7 @@
 
 [必须了解的MySQL三大日志](./mysql/40e4aa65a0bfa47d090808382ffddc78.md)
 
-## Protocol && Policy
+## Network
 
 [TCP三次握手与四次挥手](./net/49002627a472fc428fa100f2e5dbcc88.md)
 
@@ -160,7 +164,7 @@
 
 [网络中的指数躲避抖动算法](./net/e63666defbed996bf529cc25f77ba048.md)
 
-## Web 安全
+## Security
 
 [Web安全之防止重放攻击](./security/4f892aec044772b882b5bd3391e84892.md)
 
