@@ -122,6 +122,8 @@
 
 ## Redis
 
+[Redis内部数据结构详解-dict](./redis/72a4228bd1837972d51159cef62f37a4.md)
+
 [跳表的原理及实现](./redis/250b12cefb8b44a26555f5442a224d50.md)
 
 [Redis的两种持久化机制](./redis/225b07d051d77eec8944200ea688fd32.md)
