@@ -122,7 +122,9 @@
 
 ## Redis
 
-[Redis内部数据结构详解-dict](./redis/72a4228bd1837972d51159cef62f37a4.md)
+[(转)Redis内部数据结构详解-dict](./redis/72a4228bd1837972d51159cef62f37a4.md)
+
+[(转)Redis内部数据结构详解-sds](./redis/465a6cd28568d086e9aaa4206acefe05.md)
 
 [跳表的原理及实现](./redis/250b12cefb8b44a26555f5442a224d50.md)
 
@@ -135,6 +137,8 @@
 [缓存淘汰策略之LRU算法分析](./redis/20c57fc31aa7606867c3f2508cbf008f.md)
 
 [缓存淘汰策略之LFU算法分析](./redis/b24c750436a508c67e8287da8c887c97.md)
+
+[缓存淘汰策略之LRU算法改进](./redis/7582ec0043c5a8a28748a821ef2b968e.md)
 
 [缓存雪崩，缓存穿透和缓存击穿方案分析](./redis/5322c71dcf4f89e769c39bb328e3fe17.md)
 
