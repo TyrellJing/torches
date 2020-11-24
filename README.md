@@ -50,7 +50,11 @@
 
 [Uber-Golang编码规范-编程模式](./guide/82a5a09e8d0f5faef9be628fb82d66e0.md)
 
-## Third-party Package
+## Unit Test
+
+[Go单元测试-基础原理](./unit/fe2d77a30ea3c2710404f6767f6d9a75.md)
+
+## Third-Party Package
 
 [日志库logrus](./lib/c6aea72f78bce2ac98917c53427f77c4.md)
 
@@ -116,7 +120,7 @@
 
 [服务注册中心的consul实现](./go-kit/4b29320d63e8b97a86bad51a1a9e5097.md)
 
-## Go-micro
+## Go-Micro
 
 ## Etcd
 
