@@ -130,6 +130,12 @@
 
 ## Etcd
 
+## NSQ
+
+[剖析nsq消息队列(一)简介及去中心化实现原理](./nsq/bd3be395e8e94863f67a2289bf7c9d98.md)
+
+[剖析nsq消息队列(二)去中心化源码解析](./nsq/d320e4266e033cf4ed0edcc4f8091073.md)
+
 ## Redis
 
 [(转)Redis内部数据结构详解-dict](./redis/72a4228bd1837972d51159cef62f37a4.md)
