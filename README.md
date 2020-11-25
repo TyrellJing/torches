@@ -56,6 +56,10 @@
 
 [Go单元测试-mock框架](./unit/1c041f2235b3ccc29b92996532a66efd.md)
 
+[Go单元测试-testify](./unit/6138348c4230add17aea69eb1fc35f1c.md)
+
+[Go单元测试-依赖注入框架wire](./unit/3e906a19d83a7ca9ffabef0dc7f4654b.md)
+
 ## Third-Party Package
 
 [日志库logrus](./lib/c6aea72f78bce2ac98917c53427f77c4.md)
