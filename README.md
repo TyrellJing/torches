@@ -60,6 +60,10 @@
 
 [Go单元测试-依赖注入框架wire](./unit/3e906a19d83a7ca9ffabef0dc7f4654b.md)
 
+## Benchmark
+
+[Go benchmark性能测试](./bechmark/f04a1da7ec24fdc3c45ba62bac65c67a.md)
+
 ## Third-Party Package
 
 [日志库logrus](./lib/c6aea72f78bce2ac98917c53427f77c4.md)
