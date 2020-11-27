@@ -1,6 +1,6 @@
 # 目录
 
-## Go SDK
+## SDK
 
 [构建工具make和makefile编写](./std/cafdf12ee69bec6d9195f0c9307ad283.md)
 
@@ -42,7 +42,7 @@
 
 [实现一个Go并发处理队列](./std/64fef4899b9ea0c00617ded60f7f459f.md)
 
-## Uber-Go Style Guide
+## Guide
 
 [Uber-Golang编码规范-指导原则](./guide/efc4e3b51d06b3dde5fee816e6505914.md)
 
@@ -50,7 +50,7 @@
 
 [Uber-Golang编码规范-编程模式](./guide/82a5a09e8d0f5faef9be628fb82d66e0.md)
 
-## Unit Test
+## Unit-Test
 
 [Go单元测试-基础原理](./unit/fe2d77a30ea3c2710404f6767f6d9a75.md)
 
@@ -64,7 +64,7 @@
 
 [Go benchmark性能测试](./bechmark/f04a1da7ec24fdc3c45ba62bac65c67a.md)
 
-## Third-Party Package
+## Package
 
 [日志库logrus](./lib/c6aea72f78bce2ac98917c53427f77c4.md)
 
@@ -174,21 +174,25 @@
 
 [必须了解的MySQL三大日志](./mysql/40e4aa65a0bfa47d090808382ffddc78.md)
 
+## Auth
+
+[浅析Basic认证](./auth/17583d2da8e486854fac256903ac9bdd.md)
+
+[JWT机制分析](./auth/9751f90ad8fd25438bf1e2f9d5618d5b.md)
+
+[oAuth2.0授权机制](./auth/3c3524c954bbaa25bedb012d38258984.md)
+
+[浅谈权限管理模型](./auth/e5a3a4a74dc9ffcfa99a04c00ff68c92.md)
+
 ## Network
 
 [TCP三次握手与四次挥手](./net/49002627a472fc428fa100f2e5dbcc88.md)
 
 [TCP滑动窗口与拥塞控制](./net/13aaa8179bf63eb427dc113480418096.md)
 
-[浅析Basic认证](./net/17583d2da8e486854fac256903ac9bdd.md)
-
-[JWT机制分析](./net/9751f90ad8fd25438bf1e2f9d5618d5b.md)
-
-[oAuth2.0授权机制](./net/3c3524c954bbaa25bedb012d38258984.md)
-
-[浅谈权限管理模型](./net/e5a3a4a74dc9ffcfa99a04c00ff68c92.md)
-
 [网络中的指数躲避抖动算法](./net/e63666defbed996bf529cc25f77ba048.md)
+
+[Linux IO模式及select,pool,epoll详解](./net/25ad3572861d5f4f03bfc03964c76287.md)
 
 ## Security
 
