@@ -140,6 +140,8 @@
 
 [剖析nsq消息队列(二)去中心化源码解析](./nsq/d320e4266e033cf4ed0edcc4f8091073.md)
 
+[剖析nsq消息队列(三)消息传输的可靠性和持久化](./nsq/a38b6b46ac9ea1d2714bc20c496c3b36.md)
+
 ## Redis
 
 [(转)Redis内部数据结构详解-dict](./redis/72a4228bd1837972d51159cef62f37a4.md)
