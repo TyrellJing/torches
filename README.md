@@ -134,18 +134,6 @@
 
 ## Etcd
 
-## Message Queue
-
-[分布式消息队列：如何保证消息队列的高可用](./mq/d5d61a06cf76d33ee30c8f6fe6637f2f.md)
-
-[分布式消息队列：如何保证消息不被重复消费](./mq/79925a09b802ded410bd000cbe2d5c29.md)
-
-[分布式消息队列：如何保证消息按顺序执行](./mq/ab46912cdfc280d4153a12cbe4187408.md)
-
-[分布式消息队列：如何解决消息积压](./mq/0dac7c642652d075ff4730747038d408.md)
-
-[分布式消息队列：如何保证消息的可靠性传输](./mq/613946bc627e881df3669c34dd6e2e5f.md)
-
 ## NSQ
 
 [剖析nsq消息队列(一)简介及去中心化实现原理](./nsq/bd3be395e8e94863f67a2289bf7c9d98.md)
@@ -182,15 +170,31 @@
 
 [理解snowflake算法的实现原理](./redis/4e9324ab5b9e8589c72dd5f602d35910.md)
 
-## Nginx
-
-## Rabbitmq
-
 ## MySQL
 
 [InnoDB的事务实现机制](./mysql/28b067364356d358bfff17f816773949.md)
 
 [必须了解的MySQL三大日志](./mysql/40e4aa65a0bfa47d090808382ffddc78.md)
+
+## Nginx
+
+## Message Queue
+
+[分布式消息队列：如何保证消息队列的高可用](./mq/d5d61a06cf76d33ee30c8f6fe6637f2f.md)
+
+[分布式消息队列：如何保证消息不被重复消费](./mq/79925a09b802ded410bd000cbe2d5c29.md)
+
+[分布式消息队列：如何保证消息按顺序执行](./mq/ab46912cdfc280d4153a12cbe4187408.md)
+
+[分布式消息队列：如何解决消息积压](./mq/0dac7c642652d075ff4730747038d408.md)
+
+[分布式消息队列：如何保证消息的可靠性传输](./mq/613946bc627e881df3669c34dd6e2e5f.md)
+
+## Rabbitmq
+
+[rabbitmq实战指南(一)简介及入门使用](./rabbit/15091aa76ba1dc7686ddbd7c877347d3.md)
+
+
 
 ## Auth
 
