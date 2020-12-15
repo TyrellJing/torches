@@ -6,6 +6,8 @@
 
 [Go-Modules详解](./std/7963c3241f660333e66770b999610358.md)
 
+[Go的抽象语法树AST](./std/bec7c420b84c4e848e9259480d8eb11a.md)
+
 [bufio读写机制剖析](./std/1edef46cb50498cbb8f1e6d0816554dd.md)
 
 [net/http包路由机制详解](./std/557b6f167c0235c740405a209b834404.md)
@@ -197,6 +199,12 @@
 [rabbitmq实战指南(一)简介及入门使用](./rabbit/15091aa76ba1dc7686ddbd7c877347d3.md)
 
 [rabbitmq实战指南(二)AMQP协议和RabbitMQ实现](./rabbit/99e34563464ba2f7544ddf1ecccf15c4.md)
+
+## Kafka
+
+## Docker
+
+## Kubernetes
 
 ## Auth
 
