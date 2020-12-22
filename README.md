@@ -34,6 +34,8 @@
 
 [log包源码分析](./std/a5127429a98b648f28ce2fc869160008.md)
 
+## Currency
+
 [GC-三色标记清除](./std/45574a7f4ed0c1ef3c239b250ba69564.md)
 
 [G-M-P调度模型](./std/135e64075c7a0c96f2a15bca12fc7c70.md)
@@ -43,6 +45,8 @@
 [Go中的并发限制与超时控制](./std/17f2b3867ba1cdfcc9f2116398ab36ad.md)
 
 [实现一个Go并发处理队列](./std/64fef4899b9ea0c00617ded60f7f459f.md)
+
+[Go的并发模型与并发模式](./std/d1126cba14c403d93622c1862941ab0d.md)
 
 ## Guide
 
