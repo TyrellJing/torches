@@ -162,6 +162,8 @@
 
 [Redis的两种持久化机制](./redis/225b07d051d77eec8944200ea688fd32.md)
 
+[Redis的主从复制机制](./redis/92c273561eb14294e4b299917ebb460f.md)
+
 [基于Redis的分布式锁实现](./redis/06d6b52568476822f5a2e9f0be2e1032.md)
 
 [RedLock算法-使用redis实现分布式锁服务](./redis/41ebba3bc046c23a2a1b19a7bff2d3bb.md)
