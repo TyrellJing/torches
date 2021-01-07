@@ -6,6 +6,8 @@
 
 [Go-Modules详解](./std/7963c3241f660333e66770b999610358.md)
 
+[Go的编译过程](./std/9aef27454c5df62def894f0bad45c625.md)
+
 [Go的抽象语法树AST](./std/bec7c420b84c4e848e9259480d8eb11a.md)
 
 [bufio读写机制剖析](./std/1edef46cb50498cbb8f1e6d0816554dd.md)
