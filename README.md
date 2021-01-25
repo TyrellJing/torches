@@ -6,6 +6,8 @@
 
 [Go-Modules详解](./std/7963c3241f660333e66770b999610358.md)
 
+[Go的自举](./std/163ce40937379b0315d83b29cb349c7b.md)
+
 [Go的编译过程](./std/9aef27454c5df62def894f0bad45c625.md)
 
 [Go的抽象语法树AST](./std/bec7c420b84c4e848e9259480d8eb11a.md)
@@ -169,6 +171,8 @@
 [基于Redis的分布式锁实现](./redis/06d6b52568476822f5a2e9f0be2e1032.md)
 
 [RedLock算法-使用redis实现分布式锁服务](./redis/41ebba3bc046c23a2a1b19a7bff2d3bb.md)
+
+[浅谈分布式事务的实现模式](./redis/611b3158e4cf4399196d42c82f463cc0.md)
 
 [缓存淘汰策略之LRU算法分析](./redis/20c57fc31aa7606867c3f2508cbf008f.md)
 
