@@ -186,11 +186,17 @@
 
 ## MySQL
 
+[OLTP和OLAP的介绍和比较](./mysql/50eea3dcb3df93dbaf4bf9008845a251.md)
+
 [InnoDB的事务实现机制](./mysql/28b067364356d358bfff17f816773949.md)
 
 [必须了解的MySQL三大日志](./mysql/40e4aa65a0bfa47d090808382ffddc78.md)
 
 ## Nginx
+
+## 分布式事务
+
+[分布式事务-基础篇](./distributed/4bf8818e4106ebf2461ffa7e4c90ad38.md)
 
 ## Message Queue
 
