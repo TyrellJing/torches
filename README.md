@@ -192,6 +192,8 @@
 
 [必须了解的MySQL三大日志](./mysql/40e4aa65a0bfa47d090808382ffddc78.md)
 
+[MySQL常用分库分表方案汇总](./mysql/0f5f04fb1afc6bd7d3b917101ffd65d0.md)
+
 ## Nginx
 
 ## 分布式事务
