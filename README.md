@@ -244,6 +244,8 @@
 
 [TCP滑动窗口与拥塞控制](./net/13aaa8179bf63eb427dc113480418096.md)
 
+[SSL双向认证与单向认证](./net/858f2ec213fc89884ce3df10358bd52a.md)
+
 [网络中的指数躲避抖动算法](./net/e63666defbed996bf529cc25f77ba048.md)
 
 [Linux IO模式及select,pool,epoll详解](./net/25ad3572861d5f4f03bfc03964c76287.md)
