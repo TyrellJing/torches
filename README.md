@@ -1,5 +1,11 @@
 # 目录
 
+## 技能树
+
+### Go语言基础
+
+![](./assets/go-mind.png)
+
 ## SDK
 
 [构建工具make和makefile编写](./std/cafdf12ee69bec6d9195f0c9307ad283.md)
