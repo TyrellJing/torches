@@ -6,6 +6,10 @@
 
 ![](./assets/go-mind.png)
 
+### Redis
+
+![](./assets/redis-mind.png)
+
 ### MySQL
 
 ![](./assets/mysql-mind.png)
