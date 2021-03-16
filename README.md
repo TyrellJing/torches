@@ -4,7 +4,7 @@
 
 ### Go语言基础
 
-![](./assets/go-mind.png)
+![](./assets/golang-mind.png)
 
 ### Redis
 
@@ -13,6 +13,10 @@
 ### MySQL
 
 ![](./assets/mysql-mind.png)
+
+### Nginx
+
+![](./assets/nginx-mind.png)
 
 ## SDK
 
