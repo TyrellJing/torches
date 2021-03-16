@@ -2,7 +2,7 @@
 
 ## 技能树
 
-### Go语言基础
+### Golang
 
 ![](./assets/golang-mind.png)
 
