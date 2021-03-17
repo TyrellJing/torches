@@ -8,7 +8,7 @@
 
 ### Redis
 
-![](./assets/redis-mind.png)
+![](./assets/redis-mind_1.png)
 
 ### MySQL
 
