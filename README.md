@@ -10,6 +10,10 @@
 
 ![](./assets/golang-mind.png)
 
+### HTTP
+
+![](./assets/http-mind_1.png)
+
 ### Redis
 
 ![](./assets/redis-mind_1.png)
