@@ -2,6 +2,10 @@
 
 ## 技能树
 
+### Algorithms
+
+![](./assets/algorithms-mind.png)
+
 ### Golang
 
 ![](./assets/golang-mind.png)
