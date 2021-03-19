@@ -6,6 +6,8 @@
 
 ![](./assets/algorithms-mind.png)
 
+[动态数组实现](./algorithms/cdb9e2f0a02a4116b03c8ed8d72260de.md)
+
 ### Golang
 
 ![](./assets/golang-mind.png)
