@@ -10,6 +10,10 @@
 
 [单链表实现](./algorithms/a227d97f3c0e4578e4a431fa345b1348.md)
 
+[双链表实现](./algorithms/056131e06c4485d4954261808b5076d8.md)
+
+[循环链表实现](./algorithms/c65142ab8a103e6ffb29457bfb27250b.md)
+
 ### Golang
 
 ![](./assets/golang-mind.png)
