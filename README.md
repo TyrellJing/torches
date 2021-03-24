@@ -14,6 +14,12 @@
 
 [循环链表实现](./algorithms/c65142ab8a103e6ffb29457bfb27250b.md)
 
+[顺序栈](./algorithms/82155fbdc01043f42648be3c1419322b.md)
+
+[链式栈](./algorithms/8dd77e5d714cbe12acf2087b0f3a896f.md)
+
+[最小栈](./algorithms/1e20e3a6ceb3172c3d606752183e3ba3.md)
+
 ### Golang
 
 ![](./assets/golang-mind.png)
