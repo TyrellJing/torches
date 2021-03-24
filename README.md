@@ -20,6 +20,12 @@
 
 [最小栈](./algorithms/1e20e3a6ceb3172c3d606752183e3ba3.md)
 
+[顺序队列](./algorithms/68c9deabb51c2175ca9f96058006b89c.md)
+
+[链式队列](./algorithms/6c66915fcfefa6ba0f4fe9830fce87d8.md)
+
+[循环队列](./algorithms/9032418d708c9a9e96cd0a810f85d590.md)
+
 ### Golang
 
 ![](./assets/golang-mind.png)
