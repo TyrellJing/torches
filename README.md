@@ -26,6 +26,10 @@
 
 [循环队列](./algorithms/9032418d708c9a9e96cd0a810f85d590.md)
 
+[双端队列](./algorithms/e91ccb7dfd8576c599d23ddec1f62c4a.md)
+
+[协程安全队列](./algorithms/86fc324b72a60c96fe24c8e160c8a838.md)
+
 ### Golang
 
 ![](./assets/golang-mind.png)
