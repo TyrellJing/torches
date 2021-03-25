@@ -34,6 +34,8 @@
 
 ![](./assets/golang-mind.png)
 
+[如何优雅的关闭Channel](./golang/2b3d750cdd4f7ab3d245882de9215b85.md)
+
 ### HTTP
 
 ![](./assets/http-mind_1.png)
