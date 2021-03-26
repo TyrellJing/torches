@@ -6,31 +6,45 @@
 
 ![](./assets/algorithms-mind_1.png)
 
-[动态数组实现](./algorithms/cdb9e2f0a02a4116b03c8ed8d72260de.md)
+- 线性表
 
-[单链表实现](./algorithms/a227d97f3c0e4578e4a431fa345b1348.md)
+    [动态数组实现](./algorithms/cdb9e2f0a02a4116b03c8ed8d72260de.md)
 
-[双链表实现](./algorithms/056131e06c4485d4954261808b5076d8.md)
+    [单链表实现](./algorithms/a227d97f3c0e4578e4a431fa345b1348.md)
 
-[循环链表实现](./algorithms/c65142ab8a103e6ffb29457bfb27250b.md)
+    [双链表实现](./algorithms/056131e06c4485d4954261808b5076d8.md)
 
-[顺序栈](./algorithms/82155fbdc01043f42648be3c1419322b.md)
+    [循环链表实现](./algorithms/c65142ab8a103e6ffb29457bfb27250b.md)
 
-[链式栈](./algorithms/8dd77e5d714cbe12acf2087b0f3a896f.md)
+    [顺序栈](./algorithms/82155fbdc01043f42648be3c1419322b.md)
 
-[最小栈](./algorithms/1e20e3a6ceb3172c3d606752183e3ba3.md)
+    [链式栈](./algorithms/8dd77e5d714cbe12acf2087b0f3a896f.md)
 
-[顺序队列](./algorithms/68c9deabb51c2175ca9f96058006b89c.md)
+    [最小栈](./algorithms/1e20e3a6ceb3172c3d606752183e3ba3.md)
 
-[链式队列](./algorithms/6c66915fcfefa6ba0f4fe9830fce87d8.md)
+    [顺序队列](./algorithms/68c9deabb51c2175ca9f96058006b89c.md)
 
-[循环队列](./algorithms/9032418d708c9a9e96cd0a810f85d590.md)
+    [链式队列](./algorithms/6c66915fcfefa6ba0f4fe9830fce87d8.md)
 
-[双端队列](./algorithms/e91ccb7dfd8576c599d23ddec1f62c4a.md)
+    [循环队列](./algorithms/9032418d708c9a9e96cd0a810f85d590.md)
 
-[协程安全队列](./algorithms/86fc324b72a60c96fe24c8e160c8a838.md)
+    [双端队列](./algorithms/e91ccb7dfd8576c599d23ddec1f62c4a.md)
 
-[散列表](./algorithms/02d41e5327c314ce9db19e5d6becdd61.md)
+    [协程安全队列](./algorithms/86fc324b72a60c96fe24c8e160c8a838.md)
+
+- 散列表
+
+    [散列表](./algorithms/02d41e5327c314ce9db19e5d6becdd61.md)
+
+    [链表法实现](./algorithms/0a743f901e4a616aecb07a329c11c379.md)
+
+    [开放寻址法实现](./algorithms/0ef831d22a0b283d9917d51f2373492c.md)
+
+    [位图](./algorithms/a549fa900bc4726e2b468de4c8e87f76.md)
+
+    [位图的实现](./algorithms/2486be2d57e6df4e9197898f8cd2aaa3.md)
+
+    [动态扩容](./algorithms/55a4e59bf45ecaab6990a4442f741118.md)
 
 ### Golang
 
