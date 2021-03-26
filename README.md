@@ -4,7 +4,7 @@
 
 ### Algorithms
 
-![](./assets/algorithms-mind.png)
+![](./assets/algorithms-mind_1.png)
 
 [动态数组实现](./algorithms/cdb9e2f0a02a4116b03c8ed8d72260de.md)
 
@@ -29,6 +29,8 @@
 [双端队列](./algorithms/e91ccb7dfd8576c599d23ddec1f62c4a.md)
 
 [协程安全队列](./algorithms/86fc324b72a60c96fe24c8e160c8a838.md)
+
+[散列表](./algorithms/02d41e5327c314ce9db19e5d6becdd61.md)
 
 ### Golang
 
