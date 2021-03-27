@@ -4,7 +4,7 @@
 
 ### Algorithms
 
-![](./assets/algorithms-mind_1.png)
+![](./assets/algorithms-mind_2.png)
 
 - 线性表
 
@@ -45,6 +45,18 @@
     [位图的实现](./algorithms/2486be2d57e6df4e9197898f8cd2aaa3.md)
 
     [动态扩容](./algorithms/55a4e59bf45ecaab6990a4442f741118.md)
+
+- 树
+
+    [二叉查找树](./algorithms/383fcb991fe00219aa1358c588215b03.md)
+
+    [二叉查找树代码实现](./algorithms/07cb6b3d95259311400736d4ca28b1d3.md)
+
+    [AVL树](./algorithms/918accc0aed3e3dfbf775397eb19f337.md)
+
+    [红黑树](./algorithms/b6f1621270b34da2625392b7f00ea618.md)
+
+    [特殊的二叉树](./algorithms/e90a6ac6d5748c22e8483be264e24ee7.md)
 
 ### Golang
 
