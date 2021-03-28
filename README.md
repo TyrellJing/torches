@@ -58,6 +58,10 @@
 
     [特殊的二叉树](./algorithms/e90a6ac6d5748c22e8483be264e24ee7.md)
 
+    [B树](./algorithms/39a6b440ba8f6a8c4d180c53b515dd8c.md)
+
+    [B+树](./algorithms/19dd3d1e5ad169e8c1bd8fd2dbc67326.md)
+
 ### Golang
 
 ![](./assets/golang-mind.png)
