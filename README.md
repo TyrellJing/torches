@@ -68,6 +68,8 @@
 
 [如何优雅的关闭Channel](./golang/2b3d750cdd4f7ab3d245882de9215b85.md)
 
+[Golang调度器GMP原理分析](./golang/6113dbb0299525cbff967c7471da73ee.md)
+
 ### HTTP
 
 ![](./assets/http-mind_1.png)
@@ -133,8 +135,6 @@
 ## Currency
 
 [GC-三色标记清除](./std/45574a7f4ed0c1ef3c239b250ba69564.md)
-
-[G-M-P调度模型](./std/135e64075c7a0c96f2a15bca12fc7c70.md)
 
 [Go中连接池的实现分析](./std/dc2304b5445bd93705e8a613373f86c9.md)
 
