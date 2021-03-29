@@ -70,6 +70,8 @@
 
 [Golang调度器GMP原理分析](./golang/6113dbb0299525cbff967c7471da73ee.md)
 
+[Golang的GC机制分析](./golang/5459371bba88e8b61457014503e915da.md)
+
 ### HTTP
 
 ![](./assets/http-mind_1.png)
