@@ -66,19 +66,57 @@
 
 ![](./assets/golang-mind.png)
 
-[如何优雅的关闭Channel](./golang/2b3d750cdd4f7ab3d245882de9215b85.md)
+- 依赖管理
 
-[Golang调度器GMP原理分析](./golang/6113dbb0299525cbff967c7471da73ee.md)
+    [Go-Modules详解](./golang/7963c3241f660333e66770b999610358.md)
 
-[Golang的GC机制分析](./golang/5459371bba88e8b61457014503e915da.md)
+- 构建与调试
+
+    [构建工具make和makefile编写](./golang/cafdf12ee69bec6d9195f0c9307ad283.md)
+
+- 编码规范
+
+    [Uber-Golang编码规范-指导原则](./guide/efc4e3b51d06b3dde5fee816e6505914.md)
+
+    [Uber-Golang编码规范-性能与规范](./guide/545a7f4bb1f9fb1db36540a82f547019.md)
+
+    [Uber-Golang编码规范-编程模式](./guide/82a5a09e8d0f5faef9be628fb82d66e0.md)
+
+    [如何优雅的关闭Channel](./golang/2b3d750cdd4f7ab3d245882de9215b85.md)
+
+- 体系结构
+
+    [Go的自举](./golang/163ce40937379b0315d83b29cb349c7b.md)
+
+    [Go的编译过程](./golang/9aef27454c5df62def894f0bad45c625.md)
+
+    [Go的抽象语法树AST](./golang/bec7c420b84c4e848e9259480d8eb11a.md)
+
+    [Golang调度器GMP原理分析](./golang/6113dbb0299525cbff967c7471da73ee.md)
+
+    [Golang的GC机制分析](./golang/5459371bba88e8b61457014503e915da.md)
 
 ### HTTP
 
 ![](./assets/http-mind_1.png)
 
+- TCP连接
+
+    [TCP三次握手与四次挥手](./net/49002627a472fc428fa100f2e5dbcc88.md)
+
+    [TCP滑动窗口与拥塞控制](./net/13aaa8179bf63eb427dc113480418096.md)
+
+- HTTPS
+
+    [HTTPS如何保证传输安全](./net/288fa6439aacddf7ffeb6cfcf44aee66.md)
+
 ### Redis
 
 ![](./assets/redis-mind_1.png)
+
+- 底层数据结构
+
+    [简单动态字符串SDS](./redis/5a7505d4c08ba9f7c68e31715368fc10.md)
 
 ### MySQL
 
@@ -96,17 +134,11 @@
 
 ![](./assets/kafka-mind.png)
 
+## Docker
+
+## Kubernetes
+
 ## SDK
-
-[构建工具make和makefile编写](./std/cafdf12ee69bec6d9195f0c9307ad283.md)
-
-[Go-Modules详解](./std/7963c3241f660333e66770b999610358.md)
-
-[Go的自举](./std/163ce40937379b0315d83b29cb349c7b.md)
-
-[Go的编译过程](./std/9aef27454c5df62def894f0bad45c625.md)
-
-[Go的抽象语法树AST](./std/bec7c420b84c4e848e9259480d8eb11a.md)
 
 [bufio读写机制剖析](./std/1edef46cb50498cbb8f1e6d0816554dd.md)
 
@@ -136,8 +168,6 @@
 
 ## Currency
 
-[GC-三色标记清除](./std/45574a7f4ed0c1ef3c239b250ba69564.md)
-
 [Go中连接池的实现分析](./std/dc2304b5445bd93705e8a613373f86c9.md)
 
 [Go中的并发限制与超时控制](./std/17f2b3867ba1cdfcc9f2116398ab36ad.md)
@@ -145,14 +175,6 @@
 [实现一个Go并发处理队列](./std/64fef4899b9ea0c00617ded60f7f459f.md)
 
 [Go的并发模型与并发模式](./std/d1126cba14c403d93622c1862941ab0d.md)
-
-## Guide
-
-[Uber-Golang编码规范-指导原则](./guide/efc4e3b51d06b3dde5fee816e6505914.md)
-
-[Uber-Golang编码规范-性能与规范](./guide/545a7f4bb1f9fb1db36540a82f547019.md)
-
-[Uber-Golang编码规范-编程模式](./guide/82a5a09e8d0f5faef9be628fb82d66e0.md)
 
 ## Unit-Test
 
@@ -316,12 +338,6 @@
 
 [rabbitmq实战指南(二)AMQP协议和RabbitMQ实现](./rabbit/99e34563464ba2f7544ddf1ecccf15c4.md)
 
-## Kafka
-
-## Docker
-
-## Kubernetes
-
 ## Auth
 
 [浅析Basic认证](./auth/17583d2da8e486854fac256903ac9bdd.md)
@@ -333,12 +349,6 @@
 [浅谈权限管理模型](./auth/e5a3a4a74dc9ffcfa99a04c00ff68c92.md)
 
 ## Network
-
-[TCP三次握手与四次挥手](./net/49002627a472fc428fa100f2e5dbcc88.md)
-
-[TCP滑动窗口与拥塞控制](./net/13aaa8179bf63eb427dc113480418096.md)
-
-[HTTPS如何保证传输安全](./net/288fa6439aacddf7ffeb6cfcf44aee66.md)
 
 [SSL双向认证与单向认证](./net/858f2ec213fc89884ce3df10358bd52a.md)
 
