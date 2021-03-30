@@ -118,6 +118,10 @@
 
     [简单动态字符串SDS](./redis/5a7505d4c08ba9f7c68e31715368fc10.md)
 
+    [链表](./redis/777cc60e866fff12295e870743c02771.md)
+
+    [字典](./redis/ad552573d71a78e98660beb1131cbdf8.md)
+
 ### MySQL
 
 ![](./assets/mysql-mind.png)
