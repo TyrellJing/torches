@@ -122,6 +122,8 @@
 
     [字典](./redis/ad552573d71a78e98660beb1131cbdf8.md)
 
+    [跳表](./redis/b91300342bd14a679529c10837966fb0.md)
+
 ### MySQL
 
 ![](./assets/mysql-mind.png)
