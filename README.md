@@ -126,6 +126,12 @@
 
     [整数集合](./redis/9f028d301e53c6673ca8f758ea730c9f.md)
 
+    [压缩列表](./redis/6f5a407880a6fa4c3fa7801035d23e73.md)
+
+- 顶层数据类型
+
+    [字符串](./redis/cc4dd1da7e1a754534215f02fb9ba85d.md)
+
 ### MySQL
 
 ![](./assets/mysql-mind.png)
