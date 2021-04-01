@@ -130,7 +130,17 @@
 
 - 顶层数据类型
 
+    [对象系统](./redis/b14494137c805dc66bdc9ed88d7fd2de.md)
+
     [字符串](./redis/cc4dd1da7e1a754534215f02fb9ba85d.md)
+
+    [列表](./redis/3712972d84adf48acbd6ad24b4d75ad0.md)
+
+    [哈希](./redis/b5dbd2c8c3e080e34db9053a36b2b2d3.md)
+
+    [集合](./redis/508b37f195b91f7d901273d4cd2d87f0.md)
+
+    [有序集合](./redis/507d7069cc147e1d86c69ff2ee502a27.md)
 
 ### MySQL
 
