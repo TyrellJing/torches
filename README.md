@@ -58,6 +58,8 @@
 
     [特殊的二叉树](./algorithms/e90a6ac6d5748c22e8483be264e24ee7.md)
 
+    [跳表的原理及实现](./algorithms/250b12cefb8b44a26555f5442a224d50.md)
+
     [B树](./algorithms/39a6b440ba8f6a8c4d180c53b515dd8c.md)
 
     [B+树](./algorithms/19dd3d1e5ad169e8c1bd8fd2dbc67326.md)
@@ -141,6 +143,22 @@
     [集合](./redis/508b37f195b91f7d901273d4cd2d87f0.md)
 
     [有序集合](./redis/507d7069cc147e1d86c69ff2ee502a27.md)
+
+- 应用场景
+
+    [基于Redis的分布式锁实现](./redis/06d6b52568476822f5a2e9f0be2e1032.md)
+
+    [RedLock算法-使用redis实现分布式锁服务](./redis/41ebba3bc046c23a2a1b19a7bff2d3bb.md)
+
+    [缓存雪崩，缓存穿透和缓存击穿方案分析](./redis/5322c71dcf4f89e769c39bb328e3fe17.md)
+    
+- 过期键删除策略
+
+    [缓存淘汰策略之LRU算法分析](./redis/20c57fc31aa7606867c3f2508cbf008f.md)
+
+    [缓存淘汰策略之LFU算法分析](./redis/b24c750436a508c67e8287da8c887c97.md)
+
+    [缓存淘汰策略之LRU算法改进](./redis/7582ec0043c5a8a28748a821ef2b968e.md)    
 
 ### MySQL
 
@@ -298,29 +316,11 @@
 
 ## Redis
 
-[(转)Redis内部数据结构详解-dict](./redis/72a4228bd1837972d51159cef62f37a4.md)
-
-[(转)Redis内部数据结构详解-sds](./redis/465a6cd28568d086e9aaa4206acefe05.md)
-
-[跳表的原理及实现](./redis/250b12cefb8b44a26555f5442a224d50.md)
-
 [Redis的两种持久化机制](./redis/225b07d051d77eec8944200ea688fd32.md)
 
 [Redis的主从复制机制](./redis/92c273561eb14294e4b299917ebb460f.md)
 
-[基于Redis的分布式锁实现](./redis/06d6b52568476822f5a2e9f0be2e1032.md)
-
-[RedLock算法-使用redis实现分布式锁服务](./redis/41ebba3bc046c23a2a1b19a7bff2d3bb.md)
-
 [浅谈分布式事务的实现模式](./redis/611b3158e4cf4399196d42c82f463cc0.md)
-
-[缓存淘汰策略之LRU算法分析](./redis/20c57fc31aa7606867c3f2508cbf008f.md)
-
-[缓存淘汰策略之LFU算法分析](./redis/b24c750436a508c67e8287da8c887c97.md)
-
-[缓存淘汰策略之LRU算法改进](./redis/7582ec0043c5a8a28748a821ef2b968e.md)
-
-[缓存雪崩，缓存穿透和缓存击穿方案分析](./redis/5322c71dcf4f89e769c39bb328e3fe17.md)
 
 [理解snowflake算法的实现原理](./redis/4e9324ab5b9e8589c72dd5f602d35910.md)
 
