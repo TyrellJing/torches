@@ -64,6 +64,14 @@
 
     [B+树](./algorithms/19dd3d1e5ad169e8c1bd8fd2dbc67326.md)
 
+- 缓存淘汰算法
+
+    [缓存淘汰策略之LRU算法分析](./algorithms/20c57fc31aa7606867c3f2508cbf008f.md)
+
+    [缓存淘汰策略之LFU算法分析](./algorithms/b24c750436a508c67e8287da8c887c97.md)
+
+    [缓存淘汰策略之LRU算法改进](./algorithms/7582ec0043c5a8a28748a821ef2b968e.md)     
+
 ### Golang
 
 ![](./assets/golang-mind.png)
@@ -114,7 +122,7 @@
 
 ### Redis
 
-![](./assets/redis-mind_1.png)
+![](./assets/redis-mind.png)
 
 - 底层数据结构
 
@@ -152,13 +160,15 @@
 
     [缓存雪崩，缓存穿透和缓存击穿方案分析](./redis/5322c71dcf4f89e769c39bb328e3fe17.md)
     
-- 过期键删除策略
+- 单机数据库
 
-    [缓存淘汰策略之LRU算法分析](./redis/20c57fc31aa7606867c3f2508cbf008f.md)
+    [数据库底层实现](./redis/42767b88b399ef28a6a558d40b8cecb9.md)
 
-    [缓存淘汰策略之LFU算法分析](./redis/b24c750436a508c67e8287da8c887c97.md)
+    [过期键删除策略](./redis/01e496ccc34abd8e7aaf7e7f28bd8d1c.md)
 
-    [缓存淘汰策略之LRU算法改进](./redis/7582ec0043c5a8a28748a821ef2b968e.md)    
+    [AOF，RDB和复制对过期键的处理](./redis/5724719677da2c8e7712d946aa716e3a.md)
+
+    [数据库通知](./redis/c7aec6048e695b9c386ef464a0e03e70.md)
 
 ### MySQL
 
