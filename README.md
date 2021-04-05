@@ -159,7 +159,13 @@
     [RedLock算法-使用redis实现分布式锁服务](./redis/41ebba3bc046c23a2a1b19a7bff2d3bb.md)
 
     [缓存雪崩，缓存穿透和缓存击穿方案分析](./redis/5322c71dcf4f89e769c39bb328e3fe17.md)
-    
+
+- 持久化
+
+    [RDB持久化](./redis/d8a87f3ece7f72ed932a9ac6a77db575.md)
+
+    [AOF持久化](./redis/801afc8f5cec2c11297bcd92cbe4b2a6.md)
+
 - 单机数据库
 
     [数据库底层实现](./redis/42767b88b399ef28a6a558d40b8cecb9.md)
@@ -181,6 +187,8 @@
 - InnoDB的实现
    
   [InnoDB体系结构](./mysql/9b31ed4853949086d10d935c0f9b1d49.md) 
+
+  [Checkpoint技术](./mysql/c4a113aaaa65ba18ed5c8af55a6f6a3e.md)
 
 ### Nginx
 
