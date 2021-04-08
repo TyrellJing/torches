@@ -190,7 +190,9 @@
 
 ### MySQL
 
-![](./assets/mysql-mind.png)
+![](./assets/mysql-mind_1.png)
+
+  [基本架构](./mysql/e7fef5016458eb8864dec3c47f24f617.md)
 
   [存储引擎](./mysql/3f1132983df2da37948798b8d128c59e.md)
 
@@ -201,6 +203,19 @@
   [InnoDB体系结构](./mysql/9b31ed4853949086d10d935c0f9b1d49.md) 
 
   [Checkpoint技术](./mysql/c4a113aaaa65ba18ed5c8af55a6f6a3e.md)
+
+  [InnoDB关键特性](./mysql/5ab46e328a10a895ca4566cf18e21333.md)
+
+  [启动，关闭与恢复](./mysql/824b964e75668a100c078eae253fcc26.md)
+
+- 索引
+ 
+  [索引的基本概念](./mysql/2b9169ab059610bb82267373916b27f6.md)
+
+  [索引的实现原理](./mysql/5ae8aed15a89aa7c153beb7f0ac5aed3.md)
+
+  [分析工具]
+
 
 ### Nginx
 
