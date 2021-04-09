@@ -118,8 +118,6 @@
 
     [Uber-Golang编码规范-编程模式](./guide/82a5a09e8d0f5faef9be628fb82d66e0.md)
 
-    [如何优雅的关闭Channel](./golang/2b3d750cdd4f7ab3d245882de9215b85.md)
-
 - 体系结构
 
     [Go的自举](./golang/163ce40937379b0315d83b29cb349c7b.md)
@@ -132,19 +130,41 @@
 
     [Golang的GC机制分析](./golang/5459371bba88e8b61457014503e915da.md)
 
-## HTTP
+- 并发编程
 
-![](./assets/http-mind_1.png)
+    [Go中连接池的实现分析](./golang/dc2304b5445bd93705e8a613373f86c9.md)
 
-- TCP连接
+    [Go中的并发限制与超时控制](./golang/17f2b3867ba1cdfcc9f2116398ab36ad.md)
 
-    [TCP三次握手与四次挥手](./net/49002627a472fc428fa100f2e5dbcc88.md)
+    [实现一个Go并发处理队列](./golang/64fef4899b9ea0c00617ded60f7f459f.md)
 
-    [TCP滑动窗口与拥塞控制](./net/13aaa8179bf63eb427dc113480418096.md)
+    [Go的并发模型与并发模式](./golang/d1126cba14c403d93622c1862941ab0d.md)
 
-- HTTPS
+    [如何优雅的关闭Channel](./golang/2b3d750cdd4f7ab3d245882de9215b85.md)
 
-    [HTTPS如何保证传输安全](./net/288fa6439aacddf7ffeb6cfcf44aee66.md)
+- 单元测试
+
+    [基础原理](./golang/fe2d77a30ea3c2710404f6767f6d9a75.md)
+
+    [mock框架](./golang/1c041f2235b3ccc29b92996532a66efd.md)
+
+    [testify](./golang/6138348c4230add17aea69eb1fc35f1c.md)
+
+    [依赖注入框架wire](./golang/3e906a19d83a7ca9ffabef0dc7f4654b.md)
+
+- 压力测试
+
+    [benchmark性能测试](./golang/f04a1da7ec24fdc3c45ba62bac65c67a.md)
+
+- 第三方库
+
+    [日志库logrus](./golang/c6aea72f78bce2ac98917c53427f77c4.md)
+
+    [命令行库cli](./golang/7291c7df1d759949affdb99bde16499d.md)
+
+    [依赖注入wire](./golang/1bfdc00f58f271a2f8a4c270d79a35c3.md)
+
+    [访问控制casbin](./golang/d10de1c285078a0716d584293f302bd1.md)
 
 ## Redis
 
@@ -260,45 +280,67 @@
 
 ![](./assets/kafka-mind.png)
 
+## MQ
+
+[分布式消息队列：如何保证消息队列的高可用](./mq/d5d61a06cf76d33ee30c8f6fe6637f2f.md)
+
+[分布式消息队列：如何保证消息不被重复消费](./mq/79925a09b802ded410bd000cbe2d5c29.md)
+
+[分布式消息队列：如何保证消息按顺序执行](./mq/ab46912cdfc280d4153a12cbe4187408.md)
+
+[分布式消息队列：如何解决消息积压](./mq/0dac7c642652d075ff4730747038d408.md)
+
+[分布式消息队列：如何保证消息的可靠性传输](./mq/613946bc627e881df3669c34dd6e2e5f.md)
+
+[分布式消息队列：消息处理失败和死信队列](./mq/913bb532a934afd4382707f016419654.md)
+
 ## Docker
 
 ## Kubernetes
 
-## Currency
+## Others
 
-[Go中连接池的实现分析](./std/dc2304b5445bd93705e8a613373f86c9.md)
+- TCP/IP
 
-[Go中的并发限制与超时控制](./std/17f2b3867ba1cdfcc9f2116398ab36ad.md)
+    [TCP三次握手与四次挥手](./others/49002627a472fc428fa100f2e5dbcc88.md)
 
-[实现一个Go并发处理队列](./std/64fef4899b9ea0c00617ded60f7f459f.md)
+    [TCP滑动窗口与拥塞控制](./others/13aaa8179bf63eb427dc113480418096.md)
 
-[Go的并发模型与并发模式](./std/d1126cba14c403d93622c1862941ab0d.md)
+- HTTP
 
-## Unit-Test
+    [HTTP1.0/1.1/2.0区别](./)
 
-[Go单元测试-基础原理](./unit/fe2d77a30ea3c2710404f6767f6d9a75.md)
+    [服务限流算法的几种实现](./others/f8bdcb5371d0afa35b36c71bb2b1648b.md)
 
-[Go单元测试-mock框架](./unit/1c041f2235b3ccc29b92996532a66efd.md)
+- HTTPS
 
-[Go单元测试-testify](./unit/6138348c4230add17aea69eb1fc35f1c.md)
+    [HTTPS如何保证传输安全](./others/288fa6439aacddf7ffeb6cfcf44aee66.md)
 
-[Go单元测试-依赖注入框架wire](./unit/3e906a19d83a7ca9ffabef0dc7f4654b.md)
+    [SSL双向认证与单向认证](./others/858f2ec213fc89884ce3df10358bd52a.md)
 
-## Benchmark
+- 网络模型
 
-[Go benchmark性能测试](./bechmark/f04a1da7ec24fdc3c45ba62bac65c67a.md)
+    [Linux IO模式及select,pool,epoll详解](./others/25ad3572861d5f4f03bfc03964c76287.md)
 
-## Package
+    [彻底搞懂Reactor模型和Proactor模型](./others/e0c360144f2b2551242156800779fb96.md)
 
-[日志库logrus](./lib/c6aea72f78bce2ac98917c53427f77c4.md)
+- 鉴权机制
+    
+    [浅析Basic认证](./others/17583d2da8e486854fac256903ac9bdd.md)
 
-[命令行库cli](./lib/7291c7df1d759949affdb99bde16499d.md)
+    [JWT机制分析](./others/9751f90ad8fd25438bf1e2f9d5618d5b.md)
 
-[依赖注入wire](./lib/1bfdc00f58f271a2f8a4c270d79a35c3.md)
+    [oAuth2.0授权机制](./others/3c3524c954bbaa25bedb012d38258984.md)
 
-[访问控制casbin](./lib/d10de1c285078a0716d584293f302bd1.md)
+    [浅谈权限管理模型](./others/e5a3a4a74dc9ffcfa99a04c00ff68c92.md)
 
-[服务限流算法的几种实现](./lib/f8bdcb5371d0afa35b36c71bb2b1648b.md)
+- Web安全
+
+    [Web安全之防止重放攻击](./others/4f892aec044772b882b5bd3391e84892.md)
+
+    [浅说XSS和CSRF](./others/985bfa1f7e6b5200ef0e0b30ddf63fc9.md)
+
+    [SQL注入原理与防护](./security/5e1b901b07a925488ada4bfc91ac044c.md)    
 
 ## Gin
 
@@ -336,39 +378,41 @@
 
 ## Go-Kit
 
-[go-kit的整体结构](./go-kit/fad0ab705c7d60ba7cd645fbb88727d0.md)
+[go-kit的整体结构](./gokit/fad0ab705c7d60ba7cd645fbb88727d0.md)
 
-[basic授权认证中间件](./go-kit/5ea369e8a80fb8b332f86b89cfb0c5cc.md)
+[basic授权认证中间件](./gokit/5ea369e8a80fb8b332f86b89cfb0c5cc.md)
 
-[endpoint源码分析](./go-kit/2ae340fadbe32d13d2498c410802d663.md)
+[endpoint源码分析](./gokit/2ae340fadbe32d13d2498c410802d663.md)
 
-[transport层之http-server](./go-kit/52345052a6f9a4ea12b236e2c5c990dd.md)
+[transport层之http-server](./gokit/52345052a6f9a4ea12b236e2c5c990dd.md)
 
-[transport层之http-client](./go-kit/b93acf62f8b62d487769c113527f5305.md)
+[transport层之http-client](./gokit/b93acf62f8b62d487769c113527f5305.md)
 
-[transport层之jsonrpc](./go-kit/b6cb9fd341765363f306fef479e7f2d9.md)
+[transport层之jsonrpc](./gokit/b6cb9fd341765363f306fef479e7f2d9.md)
 
-[transport层之grpc](./go-kit/7d86339e64c749c3482e604980bc8e8a.md)
+[transport层之grpc](./gokit/7d86339e64c749c3482e604980bc8e8a.md)
 
-[服务注册中心的通用功能实现](./go-kit/31362dddb72a6efb0978280b3f79cc64.md)
+[服务注册中心的通用功能实现](./gokit/31362dddb72a6efb0978280b3f79cc64.md)
 
-[服务注册中心的consul实现](./go-kit/4b29320d63e8b97a86bad51a1a9e5097.md)
+[服务注册中心的consul实现](./gokit/4b29320d63e8b97a86bad51a1a9e5097.md)
 
 ## Go-Micro
 
-## Etcd
-
 ## NSQ
 
-[剖析nsq消息队列(一)简介及去中心化实现原理](./nsq/bd3be395e8e94863f67a2289bf7c9d98.md)
+[简介及去中心化实现原理](./nsq/bd3be395e8e94863f67a2289bf7c9d98.md)
 
-[剖析nsq消息队列(二)去中心化源码解析](./nsq/d320e4266e033cf4ed0edcc4f8091073.md)
+[去中心化源码解析](./nsq/d320e4266e033cf4ed0edcc4f8091073.md)
 
-[剖析nsq消息队列(三)消息传输的可靠性和持久化](./nsq/a38b6b46ac9ea1d2714bc20c496c3b36.md)
+[消息传输的可靠性和持久化](./nsq/a38b6b46ac9ea1d2714bc20c496c3b36.md)
 
-[剖析nsq消息队列(四)消息传输的可靠性和持久化](./nsq/9517598622412531c0a6ffdc97e5c69e.md)
+[消息传输的可靠性和持久化](./nsq/9517598622412531c0a6ffdc97e5c69e.md)
 
-[剖析nsq消息队列(五)消息的负载处理](./nsq/cccbc30c2792b5793ca6397792dbc2a5.md)
+[消息的负载处理](./nsq/cccbc30c2792b5793ca6397792dbc2a5.md)
+
+## Etcd
+
+## TiDB
 
 ## Redis
 
@@ -388,27 +432,12 @@
 
 [MySQL常用分库分表方案汇总](./mysql/0f5f04fb1afc6bd7d3b917101ffd65d0.md)
 
-## Nginx
-
 ## 分布式事务
 
 [分布式事务-基础篇](./distributed/4bf8818e4106ebf2461ffa7e4c90ad38.md)
 
 [分布式事务解决方案之2PC(两阶段提交)](./distributed/7891b90c00736076ed36a4ced4d44efa.md)
 
-## Message Queue
-
-[分布式消息队列：如何保证消息队列的高可用](./mq/d5d61a06cf76d33ee30c8f6fe6637f2f.md)
-
-[分布式消息队列：如何保证消息不被重复消费](./mq/79925a09b802ded410bd000cbe2d5c29.md)
-
-[分布式消息队列：如何保证消息按顺序执行](./mq/ab46912cdfc280d4153a12cbe4187408.md)
-
-[分布式消息队列：如何解决消息积压](./mq/0dac7c642652d075ff4730747038d408.md)
-
-[分布式消息队列：如何保证消息的可靠性传输](./mq/613946bc627e881df3669c34dd6e2e5f.md)
-
-[分布式消息队列：消息处理失败和死信队列](./mq/913bb532a934afd4382707f016419654.md)
 
 ## Rabbitmq
 
@@ -416,30 +445,4 @@
 
 [rabbitmq实战指南(二)AMQP协议和RabbitMQ实现](./rabbit/99e34563464ba2f7544ddf1ecccf15c4.md)
 
-## Auth
 
-[浅析Basic认证](./auth/17583d2da8e486854fac256903ac9bdd.md)
-
-[JWT机制分析](./auth/9751f90ad8fd25438bf1e2f9d5618d5b.md)
-
-[oAuth2.0授权机制](./auth/3c3524c954bbaa25bedb012d38258984.md)
-
-[浅谈权限管理模型](./auth/e5a3a4a74dc9ffcfa99a04c00ff68c92.md)
-
-## Network
-
-[SSL双向认证与单向认证](./net/858f2ec213fc89884ce3df10358bd52a.md)
-
-[网络中的指数躲避抖动算法](./net/e63666defbed996bf529cc25f77ba048.md)
-
-[Linux IO模式及select,pool,epoll详解](./net/25ad3572861d5f4f03bfc03964c76287.md)
-
-[彻底搞懂Reactor模型和Proactor模型](./net/e0c360144f2b2551242156800779fb96.md)
-
-## Security
-
-[Web安全之防止重放攻击](./security/4f892aec044772b882b5bd3391e84892.md)
-
-[浅说XSS和CSRF](./security/985bfa1f7e6b5200ef0e0b30ddf63fc9.md)
-
-[SQL注入原理与防护](./security/5e1b901b07a925488ada4bfc91ac044c.md)
