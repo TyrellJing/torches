@@ -72,7 +72,7 @@
 
 ## Golang
 
-![](./assets/golang-mind.png)
+![](./assets/golang-mind_1.png)
 
 - 依赖管理
 
@@ -81,6 +81,34 @@
 - 构建与调试
 
     [构建工具make和makefile编写](./golang/cafdf12ee69bec6d9195f0c9307ad283.md)
+
+- 标准库
+
+    [bufio读写机制剖析](./golang/1edef46cb50498cbb8f1e6d0816554dd.md)
+
+    [net/http包路由机制详解](./golang/557b6f167c0235c740405a209b834404.md)
+
+    [unsafe包详解](./golang/cd10787177a22a08560b4b26fba49a7f.md)
+
+    [slice的底层实现](./golang/80487aad121cf9be11c8aa1bd219e5ed.md)
+
+    [map的底层实现](./golang/e6480ecfabffb4028372fc5d2909cf71.md)
+
+    [map的扩容机制](./golang/73e254a888a9fbebaaed6875fc1c1a3f.md)
+
+    [context机制详解](./golang/15ef742f3c8f1500f7e78936b88b776b.md)
+
+    [atomic原子操作](./golang/d83755d0ff9855a2b602af77775bb07d.md)
+
+    [sync.Pool临时对象池](./golang/2c2496a74b1243d762153dc2fdb8aa9f.md)
+
+    [sync.Map源码分析](./golang/4cc5086abc237cd75fa591619deae465.md)
+
+    [sync包中的同步原语](./golang/468b01a85672e8f37708aa5dcef2d521.md)
+
+    [sync包的实际应用](./golang/27b92a32ea3922079b13f63faf5e46d3.md)
+
+    [log包源码分析](./golang/a5127429a98b648f28ce2fc869160008.md)
 
 - 编码规范
 
@@ -235,34 +263,6 @@
 ## Docker
 
 ## Kubernetes
-
-## SDK
-
-[bufio读写机制剖析](./std/1edef46cb50498cbb8f1e6d0816554dd.md)
-
-[net/http包路由机制详解](./std/557b6f167c0235c740405a209b834404.md)
-
-[unsafe包详解](./std/cd10787177a22a08560b4b26fba49a7f.md)
-
-[slice的底层实现](./std/80487aad121cf9be11c8aa1bd219e5ed.md)
-
-[map的底层实现](./std/e6480ecfabffb4028372fc5d2909cf71.md)
-
-[map的扩容机制](./std/73e254a888a9fbebaaed6875fc1c1a3f.md)
-
-[context机制详解](./std/15ef742f3c8f1500f7e78936b88b776b.md)
-
-[atomic原子操作](./std/d83755d0ff9855a2b602af77775bb07d.md)
-
-[sync.Pool临时对象池](./std/2c2496a74b1243d762153dc2fdb8aa9f.md)
-
-[sync.Map源码分析](./std/4cc5086abc237cd75fa591619deae465.md)
-
-[sync包中的同步原语](./std/468b01a85672e8f37708aa5dcef2d521.md)
-
-[sync包的实际应用](./std/27b92a32ea3922079b13f63faf5e46d3.md)
-
-[log包源码分析](./std/a5127429a98b648f28ce2fc869160008.md)
 
 ## Currency
 
