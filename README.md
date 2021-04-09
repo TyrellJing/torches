@@ -1,8 +1,6 @@
-# 目录
+# Tech-Trees
 
-## 技能树
-
-### Algorithms
+## Algorithms
 
 ![](./assets/algorithms-mind_2.png)
 
@@ -72,7 +70,7 @@
 
     [缓存淘汰策略之LRU算法改进](./algorithms/7582ec0043c5a8a28748a821ef2b968e.md)     
 
-### Golang
+## Golang
 
 ![](./assets/golang-mind.png)
 
@@ -106,7 +104,7 @@
 
     [Golang的GC机制分析](./golang/5459371bba88e8b61457014503e915da.md)
 
-### HTTP
+## HTTP
 
 ![](./assets/http-mind_1.png)
 
@@ -120,7 +118,7 @@
 
     [HTTPS如何保证传输安全](./net/288fa6439aacddf7ffeb6cfcf44aee66.md)
 
-### Redis
+## Redis
 
 ![](./assets/redis-mind.png)
 
@@ -188,9 +186,9 @@
 
     [数据库通知](./redis/c7aec6048e695b9c386ef464a0e03e70.md)
 
-### MySQL
+## MySQL
 
-![](./assets/mysql-mind_1.png)
+![](./assets/mysql-mind.png)
 
   [基本架构](./mysql/e7fef5016458eb8864dec3c47f24f617.md)
 
@@ -214,18 +212,23 @@
 
   [索引的实现原理](./mysql/5ae8aed15a89aa7c153beb7f0ac5aed3.md)
 
-  [分析工具]
+  [分析工具](./mysql/39e59f37dc93e340675ad0f3d255a3db.md)
 
+- 事务
 
-### Nginx
+  [事务的实现机制](./mysql/28b067364356d358bfff17f816773949.md)
+
+  [MVCC实现机制](./mysql/b9a011b76e0802f82646166589c3a597.md)
+
+## Nginx
 
 ![](./assets/nginx-mind.png)
 
-### RabbitMQ
+## RabbitMQ
 
 ![](./assets/rabbitmq-mind.png)
 
-### Kafka
+## Kafka
 
 ![](./assets/kafka-mind.png)
 
@@ -380,8 +383,6 @@
 ## MySQL
 
 [OLTP和OLAP的介绍和比较](./mysql/50eea3dcb3df93dbaf4bf9008845a251.md)
-
-[InnoDB的事务实现机制](./mysql/28b067364356d358bfff17f816773949.md)
 
 [必须了解的MySQL三大日志](./mysql/40e4aa65a0bfa47d090808382ffddc78.md)
 
