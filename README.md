@@ -210,10 +210,6 @@
 
 - 持久化
 
-    [RDB持久化](./redis/d8a87f3ece7f72ed932a9ac6a77db575.md)
-
-    [AOF持久化](./redis/801afc8f5cec2c11297bcd92cbe4b2a6.md)
-
     [Redis的两种持久化机制](./redis/225b07d051d77eec8944200ea688fd32.md)
 
 - 客户端
