@@ -1,5 +1,3 @@
-# Tech-Trees
-
 ## Algorithms
 
 ![](./assets/algorithms-mind_2.png)
@@ -200,10 +198,6 @@
 
 - 应用场景
 
-    [基于Redis的分布式锁实现](./redis/06d6b52568476822f5a2e9f0be2e1032.md)
-
-    [RedLock算法-使用redis实现分布式锁服务](./redis/41ebba3bc046c23a2a1b19a7bff2d3bb.md)
-
     [缓存雪崩，缓存穿透和缓存击穿方案分析](./redis/5322c71dcf4f89e769c39bb328e3fe17.md)
 
 - 事件
@@ -220,6 +214,8 @@
 
     [AOF持久化](./redis/801afc8f5cec2c11297bcd92cbe4b2a6.md)
 
+    [Redis的两种持久化机制](./redis/225b07d051d77eec8944200ea688fd32.md)
+
 - 客户端
 
 - 服务器
@@ -233,6 +229,10 @@
     [AOF，RDB和复制对过期键的处理](./redis/5724719677da2c8e7712d946aa716e3a.md)
 
     [数据库通知](./redis/c7aec6048e695b9c386ef464a0e03e70.md)
+
+- 多机数据库
+
+    [Redis的主从复制机制](./redis/92c273561eb14294e4b299917ebb460f.md)
 
 ## MySQL
 
@@ -268,6 +268,14 @@
 
   [MVCC实现机制](./mysql/b9a011b76e0802f82646166589c3a597.md)
 
+- 文件
+
+  [MySQL的三大日志](./mysql/40e4aa65a0bfa47d090808382ffddc78.md)
+
+- 性能优化
+
+  [MySQL常用分库分表方案汇总](./mysql/0f5f04fb1afc6bd7d3b917101ffd65d0.md)
+
 ## Nginx
 
 ![](./assets/nginx-mind.png)
@@ -275,6 +283,10 @@
 ## RabbitMQ
 
 ![](./assets/rabbitmq-mind.png)
+
+[简介及入门使用](./rabbit/15091aa76ba1dc7686ddbd7c877347d3.md)
+
+[AMQP协议和RabbitMQ实现](./rabbit/99e34563464ba2f7544ddf1ecccf15c4.md)
 
 ## Kafka
 
@@ -340,7 +352,21 @@
 
     [浅说XSS和CSRF](./others/985bfa1f7e6b5200ef0e0b30ddf63fc9.md)
 
-    [SQL注入原理与防护](./security/5e1b901b07a925488ada4bfc91ac044c.md)    
+    [SQL注入原理与防护](./security/5e1b901b07a925488ada4bfc91ac044c.md)  
+
+- 分布式
+
+    [浅谈分布式事务的实现模式](./others/611b3158e4cf4399196d42c82f463cc0.md)
+
+    [分布式事务基础](./others/4bf8818e4106ebf2461ffa7e4c90ad38.md)
+
+    [分布式事务解决方案之2PC(两阶段提交)](./others/7891b90c00736076ed36a4ced4d44efa.md)
+
+    [基于Redis的分布式锁实现](./others/06d6b52568476822f5a2e9f0be2e1032.md)
+
+    [RedLock算法-使用redis实现分布式锁服务](./others/41ebba3bc046c23a2a1b19a7bff2d3bb.md)
+
+    [分布式UUI-理解snowflake算法的实现原理](./others/4e9324ab5b9e8589c72dd5f602d35910.md)
 
 ## Gin
 
@@ -413,36 +439,3 @@
 ## Etcd
 
 ## TiDB
-
-## Redis
-
-[Redis的两种持久化机制](./redis/225b07d051d77eec8944200ea688fd32.md)
-
-[Redis的主从复制机制](./redis/92c273561eb14294e4b299917ebb460f.md)
-
-[浅谈分布式事务的实现模式](./redis/611b3158e4cf4399196d42c82f463cc0.md)
-
-[理解snowflake算法的实现原理](./redis/4e9324ab5b9e8589c72dd5f602d35910.md)
-
-## MySQL
-
-[OLTP和OLAP的介绍和比较](./mysql/50eea3dcb3df93dbaf4bf9008845a251.md)
-
-[必须了解的MySQL三大日志](./mysql/40e4aa65a0bfa47d090808382ffddc78.md)
-
-[MySQL常用分库分表方案汇总](./mysql/0f5f04fb1afc6bd7d3b917101ffd65d0.md)
-
-## 分布式事务
-
-[分布式事务-基础篇](./distributed/4bf8818e4106ebf2461ffa7e4c90ad38.md)
-
-[分布式事务解决方案之2PC(两阶段提交)](./distributed/7891b90c00736076ed36a4ced4d44efa.md)
-
-
-## Rabbitmq
-
-[rabbitmq实战指南(一)简介及入门使用](./rabbit/15091aa76ba1dc7686ddbd7c877347d3.md)
-
-[rabbitmq实战指南(二)AMQP协议和RabbitMQ实现](./rabbit/99e34563464ba2f7544ddf1ecccf15c4.md)
-
-
