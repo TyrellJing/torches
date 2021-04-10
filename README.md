@@ -228,7 +228,11 @@
 
 - 多机数据库
 
-    [Redis的主从复制机制](./redis/92c273561eb14294e4b299917ebb460f.md)
+    [主从复制机制](./redis/92c273561eb14294e4b299917ebb460f.md)
+
+    [哨兵机制](./redis/4c4317ad937b7692aec5eb2e3ec5e53c.md)
+
+    [集群](./redis/85fe5099f6807dada65d274810933389.md)
 
 ## MySQL
 
