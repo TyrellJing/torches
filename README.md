@@ -218,7 +218,7 @@
 
 ## MySQL
 
-![](./assets/mysql-mind.png)
+![](./assets/mysql-mind_2.png)
 
 - [基本架构](./mysql/e7fef5016458eb8864dec3c47f24f617.md)
 
@@ -253,6 +253,10 @@
 - 文件
 
   [二进制日志与事务日志](./mysql/40e4aa65a0bfa47d090808382ffddc78.md)
+
+- 锁
+
+  [锁的机制](./mysql/9024c3f9553c820087db796f3c2ebd26.md)
 
 - 性能优化
 
