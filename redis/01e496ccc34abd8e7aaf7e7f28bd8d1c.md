@@ -68,57 +68,6 @@ Redis服务器使用惰性删除和定期删除两种策略：通过两种策略
 
 过期键的定期删除策略由redis.c/activeExpireCycle函数实现，每当Redis的服务器周期性操作redis.c/serverCron函数时，activeExpireCycle函数会被调用，它在规定时间内分多次遍历服务器中各个数据库，从数据库的expires字典中随机检查一部分键的过期时间，并删除其中的过期键。
 
-```
-# 默认每次检查数据库数量
-DEFAULT_DB_NUMBERS = 16
-
-# 默认每个数据库检查的键数量
-DEFAULT_KEY_NUMBERS = 20
-
-# 全局变量，记录检查进度
-current_db = 0
-
-def activeExpireCycle();
-
-    # 初始化要检查的数据库数量
-    # 如果服务器的数据库数量比 DEFAULT_DB_NUMBERS 小
-    # 那么以服务器的数据库数量为准
-    if server.dbnum < DEFAULT_DB_NUMBERS
-        db_numbers = server.dbnum
-    else:
-        db_numbers = DEFAULT_DB_NUMBERS
-
-    # 遍历各个数据库
-    for i in range (db_numbers):
-
-        # 如果current_db的值等于服务器的数据库数量        
-        # 这表示检查程序已经遍历了服务器所有数据库一次
-        # 将current_db重置为0，开始新一次遍历
-        if current_db == server.dbnum:
-            current_db = 0
-
-        # 获取当前要处理的数据库
-        redisDb = server.db(current_db)
-
-        # 将数据库索引加1指向下一个要处理的数据库
-        current_db += 1
-
-        # 检查数据库键
-        for j in range (DEFAULT_KEY_NUMBERS):
-
-            # 如果数据库中没有一个键带有过期时间，那么跳出这个数据库
-            if redisDb.expires.size() == 0: break
-
-            # 随机获取一个带有过期时间的键
-            key_with_ttl = redisDb.expires.get_random_key()
-
-            # 检查键是否过期，如果过期就删除
-            if is_expired(key_with_ttl):
-                delete_key(key_with_ttl)
-
-            # 已到达时间上限，停止处理
-            if reach_time_limit(): return
-```
 activeExpireCycle函数的工作模式可以总结如下：
 
 - 函数每次运行时，都从一定数量的数据库中取出一定数量的随机键进行检查，并删除其中的过期键
@@ -126,4 +75,36 @@ activeExpireCycle函数的工作模式可以总结如下：
 - 全局变量current_db会记录当前activeExpireCycle函数检查的进度，并在下一次activeExpireCycle函数调用时，接着上一次的进度进行处理。
 
 - 随着activeExpireCycle函数的不断执行，服务器中的所有数据库都会被检查一遍，这时函数将current_db变量重置为0，然后开始新一轮检查工作。
+
+## RDB，AOF和复制对过期键的处理
+
+### RDB对过期键的处理
+
+在执行SAVE命令或者BGSAVE命令创建一个RDB文件时，程序会对数据库中的键进行检查，已经过期的键不会保存在新建的RDB文件中。
+
+在启动Redis时，如果服务器开启了RDB功能，那么服务器将对RDB文件进行载入：
+
+- 如果服务器以主服务器模式运行，那么载入RDB文件时，程序会对文件中保存的键进行检查，未过期的键会被载入到数据库中，而过期的键会被忽略。
+
+- 如果服务器以从服务器模式运行，那么载入RDB文件时，文件中保存的所有键，无论是否过期，都会被载入到数据库中。
+
+### AOF对过期键的处理
+
+- 当服务器以AOF持久化模式运行时，如果数据库中某个键已经过期，但它还没有被惰性删除或者定期删除，AOF不会因此产生任何影响。
+
+- 当过期键被惰性删除或者定期删除后，程序会向AOF文件追加(append)一条DEL命令，来显式记录该键已被删除。
+
+- 和生成RDB文件类似，在执行AOF重写时，程序会对数据库中的键进行检查，已过期的不会被保存到重写的AOF文件中。
+
+### 复制功能
+
+当服务器运行在复制模式下时，从服务器的过期删除动作由主服务器控制：
+
+- 主服务器在删除一个过期键之后，会显示地向所有从服务器发送一个DEL命令，告知从服务器删除这个过期键。
+
+- 从服务器在执行客户端发送的命令时，即使碰到过期键也不会将过期键删除，而是继续像处理未过期的键一样来处理过期键。
+
+- 从服务器只有在接到主服务器发送来的DEL命令后，才会删除过期键。
+
+通过由主服务器来控制从服务器统一地删除过期键，可以保证从服务器数据的一致性，也正是出于这个原因，当一个过期键仍然存在于主服务器的数据库时，这个过期键在从服务器里的复制品也会继续存在。
 
