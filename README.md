@@ -220,11 +220,11 @@
 
 ![](./assets/mysql-mind.png)
 
-  [基本架构](./mysql/e7fef5016458eb8864dec3c47f24f617.md)
+- [基本架构](./mysql/e7fef5016458eb8864dec3c47f24f617.md)
 
-  [存储引擎](./mysql/3f1132983df2da37948798b8d128c59e.md)
+- [存储引擎](./mysql/3f1132983df2da37948798b8d128c59e.md)
 
-  [连接方式](./mysql/8dc72d15d9064e5945a42f08e9ef7f65.md)  
+- [连接方式](./mysql/8dc72d15d9064e5945a42f08e9ef7f65.md)  
 
 - InnoDB的实现
    
@@ -252,11 +252,13 @@
 
 - 文件
 
-  [MySQL的三大日志](./mysql/40e4aa65a0bfa47d090808382ffddc78.md)
+  [二进制日志与事务日志](./mysql/40e4aa65a0bfa47d090808382ffddc78.md)
 
 - 性能优化
 
-  [MySQL常用分库分表方案汇总](./mysql/0f5f04fb1afc6bd7d3b917101ffd65d0.md)
+  [慢查询优化](./mysql/8d48c3007f432bdf1f8c46331c972b8e.md)
+
+  [常用分库分表方案汇总](./mysql/0f5f04fb1afc6bd7d3b917101ffd65d0.md)
 
 ## Nginx
 
@@ -350,13 +352,12 @@
 
     [分布式UUI-理解snowflake算法的实现原理](./others/4e9324ab5b9e8589c72dd5f602d35910.md)
 
-## Gin
+## Gin + Gorm
 
 [路由实现-Trie前缀树](./gin/ccb5ea25922bbdbabb4458364296346c.md)
 
 [整体架构-各组件功能实现](./gin/03a1cf5434c15154c97868b9d07a4645.md)
 
-## Gorm
 
 ## Grpc
 
