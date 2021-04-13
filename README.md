@@ -64,6 +64,22 @@
 
     [小顶堆与大顶堆](./algorithms/1355f3674ffcc6cf264bd3c2c6a27178.md)
 
+- 七种排序算法
+
+    [冒泡排序](./algorithms/5d7ecc89fa546563d431f68bd3cd0f4b.md)
+
+    [插入排序](./algorithms/112be43e6e87ac1724a1e97795567a56.md)
+
+    [选择排序](./algorithms/cc128b01cc0a031743b5cd9aec7f0468.md)
+
+    [快速排序](./algorithms/5ee213ee925122f6aef374cf940c4f95.md)
+
+    [希尔排序](./algorithms/ddb032899d6061cd37306a0714eefb0c.md)
+
+    [归并排序](./algorithms/9556661369382e0ad772180a2c789e69.md)
+
+    [堆排序](./algorithms/141c7256607edf699b0505cc86f5b7ac.md)
+
 - 缓存淘汰算法
 
     [缓存淘汰策略之LRU算法分析](./algorithms/20c57fc31aa7606867c3f2508cbf008f.md)
@@ -71,10 +87,6 @@
     [缓存淘汰策略之LFU算法分析](./algorithms/b24c750436a508c67e8287da8c887c97.md)
 
     [缓存淘汰策略之LRU算法改进](./algorithms/7582ec0043c5a8a28748a821ef2b968e.md)     
-
-- 十种排序算法
-
-
 
 ## Golang
 
@@ -147,6 +159,14 @@
     [Go的并发模型与并发模式](./golang/d1126cba14c403d93622c1862941ab0d.md)
 
     [如何优雅的关闭Channel](./golang/2b3d750cdd4f7ab3d245882de9215b85.md)
+
+- 设计模式
+
+    [单例模式]
+
+    [选项模式]
+
+    [生产消费模式]
 
 - 单元测试
 
@@ -348,7 +368,7 @@
 
     [浅说XSS和CSRF](./others/985bfa1f7e6b5200ef0e0b30ddf63fc9.md)
 
-    [SQL注入原理与防护](./security/5e1b901b07a925488ada4bfc91ac044c.md)  
+    [SQL注入原理与防护](./others/5e1b901b07a925488ada4bfc91ac044c.md)  
 
 - 分布式
 
