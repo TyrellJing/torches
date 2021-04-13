@@ -60,6 +60,10 @@
 
     [B+树](./algorithms/19dd3d1e5ad169e8c1bd8fd2dbc67326.md)
 
+- 堆
+
+    [小顶堆与大顶堆](./algorithms/1355f3674ffcc6cf264bd3c2c6a27178.md)
+
 - 缓存淘汰算法
 
     [缓存淘汰策略之LRU算法分析](./algorithms/20c57fc31aa7606867c3f2508cbf008f.md)
@@ -67,6 +71,10 @@
     [缓存淘汰策略之LFU算法分析](./algorithms/b24c750436a508c67e8287da8c887c97.md)
 
     [缓存淘汰策略之LRU算法改进](./algorithms/7582ec0043c5a8a28748a821ef2b968e.md)     
+
+- 十种排序算法
+
+
 
 ## Golang
 
@@ -354,7 +362,7 @@
 
     [RedLock算法-使用redis实现分布式锁服务](./others/41ebba3bc046c23a2a1b19a7bff2d3bb.md)
 
-    [分布式UUI-理解snowflake算法的实现原理](./others/4e9324ab5b9e8589c72dd5f602d35910.md)
+    [分布式UUID-理解snowflake算法的实现原理](./others/4e9324ab5b9e8589c72dd5f602d35910.md)
 
 ## Gin + Gorm
 
