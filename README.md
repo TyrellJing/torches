@@ -64,6 +64,10 @@
 
     [小顶堆与大顶堆](./algorithms/1355f3674ffcc6cf264bd3c2c6a27178.md)
 
+- 搜索
+
+    [深度优先遍历和广度优先遍历](./algorithms/b96bf61b91e4b2b5f127cc233aa8e612.md)
+
 - 七种排序算法
 
     [冒泡排序](./algorithms/5d7ecc89fa546563d431f68bd3cd0f4b.md)
@@ -100,6 +104,14 @@
 
     [构建工具make和makefile编写](./golang/cafdf12ee69bec6d9195f0c9307ad283.md)
 
+- 编码规范
+
+    [Uber-Golang编码规范-指导原则](./guide/efc4e3b51d06b3dde5fee816e6505914.md)
+
+    [Uber-Golang编码规范-性能与规范](./guide/545a7f4bb1f9fb1db36540a82f547019.md)
+
+    [Uber-Golang编码规范-编程模式](./guide/82a5a09e8d0f5faef9be628fb82d66e0.md)
+
 - 标准库
 
     [bufio读写机制剖析](./golang/1edef46cb50498cbb8f1e6d0816554dd.md)
@@ -127,14 +139,6 @@
     [sync包的实际应用](./golang/27b92a32ea3922079b13f63faf5e46d3.md)
 
     [log包源码分析](./golang/a5127429a98b648f28ce2fc869160008.md)
-
-- 编码规范
-
-    [Uber-Golang编码规范-指导原则](./guide/efc4e3b51d06b3dde5fee816e6505914.md)
-
-    [Uber-Golang编码规范-性能与规范](./guide/545a7f4bb1f9fb1db36540a82f547019.md)
-
-    [Uber-Golang编码规范-编程模式](./guide/82a5a09e8d0f5faef9be628fb82d66e0.md)
 
 - 体系结构
 
@@ -389,7 +393,6 @@
 [路由实现-Trie前缀树](./gin/ccb5ea25922bbdbabb4458364296346c.md)
 
 [整体架构-各组件功能实现](./gin/03a1cf5434c15154c97868b9d07a4645.md)
-
 
 ## Grpc
 
