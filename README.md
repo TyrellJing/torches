@@ -334,13 +334,15 @@
 
 - TCP/IP
 
+    [TCP与UDP的区别](./others/)
+
     [TCP三次握手与四次挥手](./others/49002627a472fc428fa100f2e5dbcc88.md)
 
     [TCP滑动窗口与拥塞控制](./others/13aaa8179bf63eb427dc113480418096.md)
 
 - HTTP
 
-    [HTTP1.0/1.1/2.0区别](./)
+    [HTTP1.0/1.1/2.0区别](./others/27d12bc83c39ebee82c47743e81cc324.md)
 
     [服务限流算法的几种实现](./others/f8bdcb5371d0afa35b36c71bb2b1648b.md)
 
