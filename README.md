@@ -150,6 +150,10 @@
 
     [Golang调度器GMP原理分析](./golang/6113dbb0299525cbff967c7471da73ee.md)
 
+    [Golang内存分配管理机制](./golang/ca0890beab8a91ac060d192fa36f1512.md)
+
+    [Golang内存分配逃逸分析](./golang/c73e87e3582627abfeb7f2d69c6c6de0.md)
+
     [Golang的GC机制分析](./golang/5459371bba88e8b61457014503e915da.md)
 
 - 并发编程
@@ -383,6 +387,8 @@
     [SQL注入原理与防护](./others/5e1b901b07a925488ada4bfc91ac044c.md)  
 
 - 分布式
+
+    [详解raft算法](./others/ed74e776e385491babe7056ecd61b001.md)
 
     [浅谈分布式事务的实现模式](./others/611b3158e4cf4399196d42c82f463cc0.md)
 
