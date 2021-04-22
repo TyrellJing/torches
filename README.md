@@ -132,9 +132,9 @@
 
     [atomic原子操作](./golang/d83755d0ff9855a2b602af77775bb07d.md)
 
-    [defer机制剖析]
+    [defer机制剖析](./golang/e613a22a891e0ed1d985fb7cb67d13ba.md)
 
-    [panic与recover机制]
+    [panic与recover机制](./golang/	860681a0393cb0c8032b959037be3b01.md)
 
     [bufio读写机制剖析](./golang/1edef46cb50498cbb8f1e6d0816554dd.md)
 
