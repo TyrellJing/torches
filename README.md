@@ -400,7 +400,7 @@
 
     [详解raft算法](./others/ed74e776e385491babe7056ecd61b001.md)
 
-    [一致性哈希算法](./others/)
+    [一致性哈希算法](./others/ac5d5e9bd3c215599efc416f6cd94e27.md)
 
     [浅谈分布式事务的实现模式](./others/611b3158e4cf4399196d42c82f463cc0.md)
 
