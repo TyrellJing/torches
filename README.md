@@ -194,7 +194,7 @@
 
     [benchmark性能测试](./golang/f04a1da7ec24fdc3c45ba62bac65c67a.md)
 
-    [pprof性能优化]
+    [pprof性能优化](./golang/8a22c72aa2b491eb714b56a562a565f0.md)
 
 - 第三方库
 
@@ -260,7 +260,7 @@
 
 - 独立功能    
 
-
+    [发布订阅](./redis/)
 
 ## MySQL
 
@@ -315,6 +315,18 @@
 ## Nginx
 
 ![](./assets/nginx-mind.png)
+
+[正向代理与反向代理]
+
+[负载均衡策略剖析]
+
+[Nginx进程模型]
+
+[Nginx内存模型]
+
+[epoll及内核源码分析]
+
+[惊群问题]
 
 ## RabbitMQ
 
