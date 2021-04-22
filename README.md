@@ -114,25 +114,35 @@
 
 - 标准库
 
-    [bufio读写机制剖析](./golang/1edef46cb50498cbb8f1e6d0816554dd.md)
-
-    [net/http包路由机制详解](./golang/557b6f167c0235c740405a209b834404.md)
-
-    [unsafe包详解](./golang/cd10787177a22a08560b4b26fba49a7f.md)
-
     [slice的底层实现](./golang/80487aad121cf9be11c8aa1bd219e5ed.md)
+
+    [interface的实现](./golang/8e64504c9e1c572c6c6098ad10d6a04b.md)
 
     [map的底层实现](./golang/e6480ecfabffb4028372fc5d2909cf71.md)
 
     [map的扩容机制](./golang/73e254a888a9fbebaaed6875fc1c1a3f.md)
 
+    [sync.Map源码分析](./golang/4cc5086abc237cd75fa591619deae465.md)
+
+    [channel的底层实现](./golang/8f15812d7843050c2fb4b966b10fb533.md)
+
+    [select的底层实现](./golang/fdf93252c53661388ee33bb70b0716b3.md)
+
     [context机制详解](./golang/15ef742f3c8f1500f7e78936b88b776b.md)
 
     [atomic原子操作](./golang/d83755d0ff9855a2b602af77775bb07d.md)
 
-    [sync.Pool临时对象池](./golang/2c2496a74b1243d762153dc2fdb8aa9f.md)
+    [defer机制剖析]
 
-    [sync.Map源码分析](./golang/4cc5086abc237cd75fa591619deae465.md)
+    [panic与recover机制]
+
+    [bufio读写机制剖析](./golang/1edef46cb50498cbb8f1e6d0816554dd.md)
+
+    [net/http包路由机制详解](./golang/557b6f167c0235c740405a209b834404.md)
+
+    [unsafe包详解](./golang/cd10787177a22a08560b4b26fba49a7f.md)
+    
+    [sync.Pool临时对象池](./golang/2c2496a74b1243d762153dc2fdb8aa9f.md)
 
     [sync包中的同步原语](./golang/468b01a85672e8f37708aa5dcef2d521.md)
 
@@ -183,6 +193,8 @@
 - 压力测试
 
     [benchmark性能测试](./golang/f04a1da7ec24fdc3c45ba62bac65c67a.md)
+
+    [pprof性能优化]
 
 - 第三方库
 
@@ -245,6 +257,10 @@
     [哨兵机制](./redis/4c4317ad937b7692aec5eb2e3ec5e53c.md)
 
     [集群](./redis/85fe5099f6807dada65d274810933389.md)
+
+- 独立功能    
+
+
 
 ## MySQL
 
@@ -383,6 +399,8 @@
 - 分布式
 
     [详解raft算法](./others/ed74e776e385491babe7056ecd61b001.md)
+
+    [一致性哈希算法](./others/)
 
     [浅谈分布式事务的实现模式](./others/611b3158e4cf4399196d42c82f463cc0.md)
 
