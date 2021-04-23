@@ -168,17 +168,23 @@
 
 - 并发编程
 
-    [Go中连接池的实现分析](./golang/dc2304b5445bd93705e8a613373f86c9.md)
+    [Go的并发模型与并发模式](./golang/d1126cba14c403d93622c1862941ab0d.md)
 
     [Go中的并发限制与超时控制](./golang/17f2b3867ba1cdfcc9f2116398ab36ad.md)
 
-    [实现一个Go并发处理队列](./golang/64fef4899b9ea0c00617ded60f7f459f.md)
-
-    [Go的并发模型与并发模式](./golang/d1126cba14c403d93622c1862941ab0d.md)
-
     [如何优雅的关闭Channel](./golang/2b3d750cdd4f7ab3d245882de9215b85.md)
 
+    [实现一个Go并发连接池](./golang/dc2304b5445bd93705e8a613373f86c9.md)
+
+    [实现一个Go并发处理队列](./golang/64fef4899b9ea0c00617ded60f7f459f.md)
+
 - 设计模式
+
+    [选项模式](./golang/1178cb47c1ae2f2d75ac039f150edb8e.md)
+
+    [单例模式](./golang/e146dbe8b105a58764dc08148ccf67d6.md)
+
+    [多生产者多消费者](./golang/2ea8010da854784e4d11ed74ed95c755.md)
 
 - 单元测试
 
