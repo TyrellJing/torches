@@ -322,11 +322,11 @@
 
 ![](./assets/nginx-mind.png)
 
-[正向代理与反向代理]
+[正向代理与反向代理](./nginx/08b53ca92479e146021c97214330eeb8.md)
 
-[负载均衡策略剖析]
+[负载均衡策略剖析](./nginx/a31cdec7e48e06cbdb324fd4b8d6619e.md)
 
-[Nginx进程模型]
+[Nginx进程模型](./nginx/883906cf71d31c75c08065eba4061b60.md)
 
 [Nginx内存模型]
 
