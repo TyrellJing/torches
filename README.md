@@ -328,11 +328,9 @@
 
 [Nginx进程模型](./nginx/883906cf71d31c75c08065eba4061b60.md)
 
-[Nginx内存模型]
+[Nginx内存模型](./nginx/5dfd87bf1d569a433aea72b3dc6e2ec7.md)
 
-[epoll及内核源码分析]
-
-[惊群问题]
+[惊群问题](./nginx/6cb3964b9ce7c3a9f537698bdbdc8c74.md)
 
 ## RabbitMQ
 
