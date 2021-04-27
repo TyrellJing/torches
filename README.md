@@ -64,6 +64,10 @@
 
     [小顶堆与大顶堆](./algorithms/1355f3674ffcc6cf264bd3c2c6a27178.md)
 
+- 基本算法思想
+
+    [动态规划](./algorithms/8c05890ac8f93d0195f884f1ff4656ec.md)
+
 - 搜索
 
     [深度优先遍历和广度优先遍历](./algorithms/b96bf61b91e4b2b5f127cc233aa8e612.md)
