@@ -70,6 +70,8 @@
 
     [贪心算法](./algorithms/f609d9e1619f07d45b7d493b39e44c77.md)
 
+    [回溯算法](./algorithms/fced5721d59aa669be7ac4f2832d1841.md)
+
 - 搜索
 
     [深度优先遍历和广度优先遍历](./algorithms/b96bf61b91e4b2b5f127cc233aa8e612.md)
