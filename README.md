@@ -210,6 +210,10 @@
 
     [pprof性能优化](./golang/8a22c72aa2b491eb714b56a562a565f0.md)
 
+- 部署发布
+
+    [微服务的几种发布方式](./golang/91cf972a22d6a2346e501768baa4d2bc.md)
+
 - 第三方库
 
     [日志库logrus](./golang/c6aea72f78bce2ac98917c53427f77c4.md)
