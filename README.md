@@ -72,9 +72,19 @@
 
     [回溯算法](./algorithms/fced5721d59aa669be7ac4f2832d1841.md)
 
+    [分治算法](./algorithms/eee59e469f6661a3f40fe663a5021935.md)
+
+    [穷举算法](./algorithms/e4b7ba3fdac014f8f3381b0812ea0df9.md)
+
 - 搜索
 
     [深度优先遍历和广度优先遍历](./algorithms/b96bf61b91e4b2b5f127cc233aa8e612.md)
+
+- 字符串匹配
+
+    [KMP模式匹配](./algorithms/)
+
+    [Trie前缀树](./algorithms/)
 
 - 七种排序算法
 
