@@ -82,7 +82,7 @@
 
 - 字符串匹配
 
-    [KMP模式匹配](./algorithms/)
+    [KMP模式匹配](./algorithms/dada3d14923329b297f59cb2c7452393.md)
 
     [Trie前缀树](./algorithms/)
 
