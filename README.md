@@ -84,7 +84,7 @@
 
     [KMP模式匹配](./algorithms/dada3d14923329b297f59cb2c7452393.md)
 
-    [Trie前缀树](./algorithms/)
+    [Trie前缀树](./algorithms/3bcdc3e216fea6939212811ada89e457.md)
 
 - 七种排序算法
 
