@@ -426,6 +426,8 @@
 
     [浅谈权限管理模型](./others/e5a3a4a74dc9ffcfa99a04c00ff68c92.md)
 
+    [单点登录系统原理与实现](./others/6d8db7199a746aaab0128bcaa2487f9a.md)
+
 - Web安全
 
     [Web安全之防止重放攻击](./others/4f892aec044772b882b5bd3391e84892.md)
