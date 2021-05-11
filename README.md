@@ -366,6 +366,8 @@
 
 ![](./assets/kafka-mind.png)
 
+[kafka体系结构](./kafka/3bdb3cfea6f3cb27287ad4734e149ca2.md)
+
 ## MQ
 
 [分布式消息队列：如何保证消息队列的高可用](./mq/d5d61a06cf76d33ee30c8f6fe6637f2f.md)
