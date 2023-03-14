@@ -122,6 +122,8 @@
 
     [构建工具make和makefile编写](./golang/cafdf12ee69bec6d9195f0c9307ad283.md)
 
+    [使用gdb调试go程序](./golang/10b6cbb98cba1e06583c67e0799396e5.md)
+
 - 编码规范
 
     [Uber-Golang编码规范-指导原则](./guide/efc4e3b51d06b3dde5fee816e6505914.md)
