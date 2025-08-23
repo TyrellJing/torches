@@ -28,20 +28,6 @@
 
     [协程安全队列](./algorithms/86fc324b72a60c96fe24c8e160c8a838.md)
 
-- 散列表
-
-    [散列表](./algorithms/02d41e5327c314ce9db19e5d6becdd61.md)
-
-    [链表法实现](./algorithms/0a743f901e4a616aecb07a329c11c379.md)
-
-    [开放寻址法实现](./algorithms/0ef831d22a0b283d9917d51f2373492c.md)
-
-    [位图](./algorithms/a549fa900bc4726e2b468de4c8e87f76.md)
-
-    [位图的实现](./algorithms/2486be2d57e6df4e9197898f8cd2aaa3.md)
-
-    [动态扩容](./algorithms/55a4e59bf45ecaab6990a4442f741118.md)
-
 - 树
 
     [二叉查找树](./algorithms/383fcb991fe00219aa1358c588215b03.md)
@@ -60,9 +46,29 @@
 
     [B+树](./algorithms/19dd3d1e5ad169e8c1bd8fd2dbc67326.md)
 
-- 堆
-
     [小顶堆与大顶堆](./algorithms/1355f3674ffcc6cf264bd3c2c6a27178.md)
+
+    [深度优先遍历和广度优先遍历](./algorithms/b96bf61b91e4b2b5f127cc233aa8e612.md)
+
+- 散列表
+
+    [散列表](./algorithms/02d41e5327c314ce9db19e5d6becdd61.md)
+
+    [链表法实现](./algorithms/0a743f901e4a616aecb07a329c11c379.md)
+
+    [开放寻址法实现](./algorithms/0ef831d22a0b283d9917d51f2373492c.md)
+
+    [位图](./algorithms/a549fa900bc4726e2b468de4c8e87f76.md)
+
+    [位图的实现](./algorithms/2486be2d57e6df4e9197898f8cd2aaa3.md)
+
+    [动态扩容](./algorithms/55a4e59bf45ecaab6990a4442f741118.md)
+
+- 字符串匹配
+
+    [KMP模式匹配](./algorithms/dada3d14923329b297f59cb2c7452393.md)
+
+    [Trie前缀树](./algorithms/3bcdc3e216fea6939212811ada89e457.md)
 
 - 基本算法思想
 
@@ -75,16 +81,6 @@
     [分治算法](./algorithms/eee59e469f6661a3f40fe663a5021935.md)
 
     [穷举算法](./algorithms/e4b7ba3fdac014f8f3381b0812ea0df9.md)
-
-- 搜索
-
-    [深度优先遍历和广度优先遍历](./algorithms/b96bf61b91e4b2b5f127cc233aa8e612.md)
-
-- 字符串匹配
-
-    [KMP模式匹配](./algorithms/dada3d14923329b297f59cb2c7452393.md)
-
-    [Trie前缀树](./algorithms/3bcdc3e216fea6939212811ada89e457.md)
 
 - 七种排序算法
 
@@ -121,14 +117,6 @@
 - 构建与调试
 
     [构建工具make和makefile编写](./golang/cafdf12ee69bec6d9195f0c9307ad283.md)
-
-- 编码规范
-
-    [Uber-Golang编码规范-指导原则](./guide/efc4e3b51d06b3dde5fee816e6505914.md)
-
-    [Uber-Golang编码规范-性能与规范](./guide/545a7f4bb1f9fb1db36540a82f547019.md)
-
-    [Uber-Golang编码规范-编程模式](./guide/82a5a09e8d0f5faef9be628fb82d66e0.md)
 
 - 标准库
 
@@ -204,6 +192,20 @@
 
     [多生产者多消费者](./golang/2ea8010da854784e4d11ed74ed95c755.md)
 
+- 压力测试
+
+    [benchmark性能测试](./golang/f04a1da7ec24fdc3c45ba62bac65c67a.md)
+
+    [pprof性能优化](./golang/8a22c72aa2b491eb714b56a562a565f0.md)    
+
+- 编码规范
+
+    [Uber-Golang编码规范-指导原则](./guide/efc4e3b51d06b3dde5fee816e6505914.md)
+
+    [Uber-Golang编码规范-性能与规范](./guide/545a7f4bb1f9fb1db36540a82f547019.md)
+
+    [Uber-Golang编码规范-编程模式](./guide/82a5a09e8d0f5faef9be628fb82d66e0.md)
+
 - 单元测试
 
     [基础原理](./golang/fe2d77a30ea3c2710404f6767f6d9a75.md)
@@ -213,12 +215,6 @@
     [testify](./golang/6138348c4230add17aea69eb1fc35f1c.md)
 
     [依赖注入框架wire](./golang/3e906a19d83a7ca9ffabef0dc7f4654b.md)
-
-- 压力测试
-
-    [benchmark性能测试](./golang/f04a1da7ec24fdc3c45ba62bac65c67a.md)
-
-    [pprof性能优化](./golang/8a22c72aa2b491eb714b56a562a565f0.md)
 
 - 部署发布
 
@@ -266,10 +262,6 @@
 
     [有序集合](./redis/507d7069cc147e1d86c69ff2ee502a27.md)
 
-- 应用场景
-
-    [缓存雪崩，缓存穿透和缓存击穿方案分析](./redis/5322c71dcf4f89e769c39bb328e3fe17.md)
-
 - 单机数据库
 
     [事件驱动模型](./redis/8d48c3007f432bdf1f8c46331c972b8e.md)
@@ -286,9 +278,14 @@
 
     [集群](./redis/85fe5099f6807dada65d274810933389.md)
 
-- 独立功能    
+- 场景分析
 
-    [发布订阅](./redis/)
+    [缓存雪崩，缓存穿透和缓存击穿方案分析](./redis/5322c71dcf4f89e769c39bb328e3fe17.md)
+
+    [Hotkey与Bigkey的优化](./redis/c10f328485547d625a368cbb769187f7.md)
+
+    [慢查询优化](./redis/406a5cacd9691dc69bc60fc1fef313be.md)
+
 
 ## MySQL
 
@@ -340,19 +337,18 @@
 
   [常用分库分表方案汇总](./mysql/0f5f04fb1afc6bd7d3b917101ffd65d0.md)
 
-## Nginx
+## ElasticSearch
 
-![](./assets/nginx-mind.png)
 
-[正向代理与反向代理](./nginx/08b53ca92479e146021c97214330eeb8.md)
+## Kafka
 
-[负载均衡策略剖析](./nginx/a31cdec7e48e06cbdb324fd4b8d6619e.md)
+![](./assets/kafka-mind.png)
 
-[Nginx进程模型](./nginx/883906cf71d31c75c08065eba4061b60.md)
+[kafka体系结构](./kafka/3bdb3cfea6f3cb27287ad4734e149ca2.md)
 
-[Nginx内存模型](./nginx/5dfd87bf1d569a433aea72b3dc6e2ec7.md)
+[生产者与消费者](./kafka/)
 
-[惊群问题](./nginx/6cb3964b9ce7c3a9f537698bdbdc8c74.md)
+[主题与分区](./kafka/)
 
 ## RabbitMQ
 
@@ -362,13 +358,7 @@
 
 [AMQP协议和RabbitMQ实现](./rabbit/99e34563464ba2f7544ddf1ecccf15c4.md)
 
-## Kafka
-
-![](./assets/kafka-mind.png)
-
-[kafka体系结构](./kafka/3bdb3cfea6f3cb27287ad4734e149ca2.md)
-
-## MQ
+## MessageQueue
 
 [分布式消息队列：如何保证消息队列的高可用](./mq/d5d61a06cf76d33ee30c8f6fe6637f2f.md)
 
@@ -382,11 +372,25 @@
 
 [分布式消息队列：消息处理失败和死信队列](./mq/913bb532a934afd4382707f016419654.md)
 
-## Docker
+## Distributed Service
 
-## Kubernetes
+[详解raft算法](./others/ed74e776e385491babe7056ecd61b001.md)
 
-## Others
+[一致性哈希算法](./others/ac5d5e9bd3c215599efc416f6cd94e27.md)
+
+[浅谈分布式事务的实现模式](./others/611b3158e4cf4399196d42c82f463cc0.md)
+
+[分布式事务基础](./others/4bf8818e4106ebf2461ffa7e4c90ad38.md)
+
+[分布式事务解决方案之2PC(两阶段提交)](./others/7891b90c00736076ed36a4ced4d44efa.md)
+
+[基于Redis的分布式锁实现](./others/06d6b52568476822f5a2e9f0be2e1032.md)
+
+[RedLock算法-使用redis实现分布式锁服务](./others/41ebba3bc046c23a2a1b19a7bff2d3bb.md)
+
+[分布式UUID-理解snowflake算法的实现原理](./others/4e9324ab5b9e8589c72dd5f602d35910.md)
+
+## Network & Security
 
 - TCP/IP
 
@@ -436,79 +440,80 @@
 
     [浅说XSS和CSRF](./others/985bfa1f7e6b5200ef0e0b30ddf63fc9.md)
 
-    [SQL注入原理与防护](./others/5e1b901b07a925488ada4bfc91ac044c.md)  
+    [SQL注入原理与防护](./others/5e1b901b07a925488ada4bfc91ac044c.md) 
 
-- 分布式
+## Nginx
 
-    [详解raft算法](./others/ed74e776e385491babe7056ecd61b001.md)
+![](./assets/nginx-mind.png)
 
-    [一致性哈希算法](./others/ac5d5e9bd3c215599efc416f6cd94e27.md)
+[正向代理与反向代理](./nginx/08b53ca92479e146021c97214330eeb8.md)
 
-    [浅谈分布式事务的实现模式](./others/611b3158e4cf4399196d42c82f463cc0.md)
+[负载均衡策略剖析](./nginx/a31cdec7e48e06cbdb324fd4b8d6619e.md)
 
-    [分布式事务基础](./others/4bf8818e4106ebf2461ffa7e4c90ad38.md)
+[Nginx进程模型](./nginx/883906cf71d31c75c08065eba4061b60.md)
 
-    [分布式事务解决方案之2PC(两阶段提交)](./others/7891b90c00736076ed36a4ced4d44efa.md)
+[Nginx内存模型](./nginx/5dfd87bf1d569a433aea72b3dc6e2ec7.md)
 
-    [基于Redis的分布式锁实现](./others/06d6b52568476822f5a2e9f0be2e1032.md)
+[惊群问题](./nginx/6cb3964b9ce7c3a9f537698bdbdc8c74.md)
 
-    [RedLock算法-使用redis实现分布式锁服务](./others/41ebba3bc046c23a2a1b19a7bff2d3bb.md)
+## Docker & K8S
 
-    [分布式UUID-理解snowflake算法的实现原理](./others/4e9324ab5b9e8589c72dd5f602d35910.md)
 
-## Gin + Gorm
+## Framework
 
-[路由实现-Trie前缀树](./gin/ccb5ea25922bbdbabb4458364296346c.md)
+- Gin + Gorm
 
-[整体架构-各组件功能实现](./gin/03a1cf5434c15154c97868b9d07a4645.md)
+    [路由实现-Trie前缀树](./gin/ccb5ea25922bbdbabb4458364296346c.md)
 
-## Grpc
+    [整体架构-各组件功能实现](./gin/03a1cf5434c15154c97868b9d07a4645.md)
 
-[Protobuf语言指南](./grpc/a0e1e3109ce923c48fcdd18d3aaf6553.md)
+- Grpc
 
-[Protobuf生成Go代码指南](./grpc/47dee3eff68bc42187b2d6e958f3d9be.md)
+    [Protobuf语言指南](./grpc/a0e1e3109ce923c48fcdd18d3aaf6553.md)
 
-[grpc的特性和背后的设计原则](./grpc/4aafe5445591ca04ea1a01f5ccb9c07d.md)
+    [Protobuf生成Go代码指南](./grpc/47dee3eff68bc42187b2d6e958f3d9be.md)
 
-[grpc接口描述语言ProtoBuffer](./grpc/ca9310a72f2853a38fdba30ee817d1e8.md)
+    [grpc的特性和背后的设计原则](./grpc/4aafe5445591ca04ea1a01f5ccb9c07d.md)
 
-[grpc之Golang入门HelloWorld](./grpc/a7b875a7f97ab4acd41ea380128e4d20.md)
+    [grpc接口描述语言ProtoBuffer](./grpc/ca9310a72f2853a38fdba30ee817d1e8.md)
 
-[grpc之流式调用原理http2协议分析](./grpc/592472ad5b65ce619f7949258ca82abf.md)
+    [grpc之Golang入门HelloWorld](./grpc/a7b875a7f97ab4acd41ea380128e4d20.md)
 
-[grpc认证的多种方式实践](./grpc/b9b2cef4ae0967d353c12a915dc1735b.md)
+    [grpc之流式调用原理http2协议分析](./grpc/592472ad5b65ce619f7949258ca82abf.md)
 
-[grpc拦截器的那些事](./grpc/aeeb6a1c25eb38ec3746dac068bd69bc.md)
+    [grpc认证的多种方式实践](./grpc/b9b2cef4ae0967d353c12a915dc1735b.md)
 
-[grpc服务注册与服务发现](./grpc/f7dbd0b69f26f000602b6e0a94d7b986.md)
+    [grpc拦截器的那些事](./grpc/aeeb6a1c25eb38ec3746dac068bd69bc.md)
 
-[grpc-server启动分析](./grpc/b456e6f15c800b64001c759ef5145a8c.md)
+    [grpc服务注册与服务发现](./grpc/f7dbd0b69f26f000602b6e0a94d7b986.md)
 
-[grpc的一次请求流程](./grpc/ae9e6625d4cc55338707a5c8b7dcc032.md)
+    [grpc-server启动分析](./grpc/b456e6f15c800b64001c759ef5145a8c.md)
 
-[grpc跨语言通信实例](./grpc/3e226b258dd5734ed0c1e91777dd3305.md)
+    [grpc的一次请求流程](./grpc/ae9e6625d4cc55338707a5c8b7dcc032.md)
 
-## Go-Kit
+    [grpc跨语言通信实例](./grpc/3e226b258dd5734ed0c1e91777dd3305.md)
 
-[go-kit的整体结构](./gokit/fad0ab705c7d60ba7cd645fbb88727d0.md)
+- Go-Kit
 
-[basic授权认证中间件](./gokit/5ea369e8a80fb8b332f86b89cfb0c5cc.md)
+    [go-kit的整体结构](./gokit/fad0ab705c7d60ba7cd645fbb88727d0.md)
 
-[endpoint源码分析](./gokit/2ae340fadbe32d13d2498c410802d663.md)
+    [basic授权认证中间件](./gokit/5ea369e8a80fb8b332f86b89cfb0c5cc.md)
 
-[transport层之http-server](./gokit/52345052a6f9a4ea12b236e2c5c990dd.md)
+    [endpoint源码分析](./gokit/2ae340fadbe32d13d2498c410802d663.md)
 
-[transport层之http-client](./gokit/b93acf62f8b62d487769c113527f5305.md)
+    [transport层之http-server](./gokit/52345052a6f9a4ea12b236e2c5c990dd.md)
 
-[transport层之jsonrpc](./gokit/b6cb9fd341765363f306fef479e7f2d9.md)
+    [transport层之http-client](./gokit/b93acf62f8b62d487769c113527f5305.md)
 
-[transport层之grpc](./gokit/7d86339e64c749c3482e604980bc8e8a.md)
+    [transport层之jsonrpc](./gokit/b6cb9fd341765363f306fef479e7f2d9.md)
 
-[服务注册中心的通用功能实现](./gokit/31362dddb72a6efb0978280b3f79cc64.md)
+    [transport层之grpc](./gokit/7d86339e64c749c3482e604980bc8e8a.md)
 
-[服务注册中心的consul实现](./gokit/4b29320d63e8b97a86bad51a1a9e5097.md)
+    [服务注册中心的通用功能实现](./gokit/31362dddb72a6efb0978280b3f79cc64.md)
 
-## Go-Micro
+    [服务注册中心的consul实现](./gokit/4b29320d63e8b97a86bad51a1a9e5097.md)
+
+- Go-Micro
 
 ## NSQ
 
@@ -524,4 +529,4 @@
 
 ## Etcd
 
-## TiDB
+
