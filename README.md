@@ -118,6 +118,8 @@
 
     [构建工具make和makefile编写](./golang/cafdf12ee69bec6d9195f0c9307ad283.md)
 
+    [使用gdb调试go程序](./golang/10b6cbb98cba1e06583c67e0799396e5.md)
+
 - 标准库
 
     [slice的底层实现](./golang/80487aad121cf9be11c8aa1bd219e5ed.md)
