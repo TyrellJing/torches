@@ -346,7 +346,7 @@
 
 [kafka体系结构](./kafka/3bdb3cfea6f3cb27287ad4734e149ca2.md)
 
-[生产者与消费者](./kafka/)
+[生产者与消费者](./kafka/1c7433e37d2ee43e300798eb8b57de1f.md)
 
 [主题与分区](./kafka/)
 
