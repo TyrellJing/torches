@@ -124,8 +124,6 @@
 
     [slice的底层实现](./golang/80487aad121cf9be11c8aa1bd219e5ed.md)
 
-    [interface的实现](./golang/8e64504c9e1c572c6c6098ad10d6a04b.md)
-
     [map的底层实现](./golang/e6480ecfabffb4028372fc5d2909cf71.md)
 
     [map的扩容机制](./golang/73e254a888a9fbebaaed6875fc1c1a3f.md)
@@ -137,6 +135,8 @@
     [select的底层实现](./golang/fdf93252c53661388ee33bb70b0716b3.md)
 
     [context机制详解](./golang/15ef742f3c8f1500f7e78936b88b776b.md)
+
+    [interface的实现](./golang/8e64504c9e1c572c6c6098ad10d6a04b.md)
 
     [atomic原子操作](./golang/d83755d0ff9855a2b602af77775bb07d.md)
 
